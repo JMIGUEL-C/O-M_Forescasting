@@ -7,7 +7,7 @@ Proyecto final de Analítica de Datos I (Universidad Icesi, 2026-02). A partir d
 ## Qué hace
 
 - **Clasificación:** anticipa, 15 minutos antes, si la potencia de la planta estará en nivel *bajo*, *medio* o *alto*. El énfasis está en acertar cuando el modelo dice «bajo» (precisión de «bajo»), porque un falso «bajo» manda a una cuadrilla a intervenir con la planta produciendo.
-- **Modelo final:** ensamble de cuatro modelos (bosque aleatorio, regresión logística ElasticNet, SVM lineal calibrada y regresión logística con distancias a K-Means), elegido entre 17 candidatos y 9 384 combinaciones. Solo usa información pasada y la hora del día (sin fuga de información), con partición cronológica por días.
+- **Modelo final:** combinación persistencia-climatología (`w · persistencia + (1 − w) · climatología por hora`), elegida con una regla fijada antes de correr entre 17 candidatos, 9 384 combinaciones de 2 a 5 modelos y las referencias: la búsqueda no demostró ventaja sobre ella en una selección anidada de origen creciente. Solo usa información pasada y la hora del día (sin fuga de información), con partición cronológica por días. La selección del modelo usa solo los días anteriores a la semana de prueba (corrección del 23-nov tras una revisión externa); el ensamble de cuatro modelos que se había elegido antes con días de prueba queda como referencia.
 - **Agrupamiento:** K-Means (K = 4) para describir los tipos de día.
 - **Alertas:** el pronóstico alimenta ventanas de mantenimiento y alertas de desvío (se esperaba medio o alto y la planta generó bajo), incluidos los inversores en cero con sol.
 - **Despliegue:** estrategia en AWS y simulación local del flujo en tiempo real (fase 6 del cuaderno).
@@ -25,6 +25,7 @@ Final_Version/
 ├── Informe_Proyecto4.pdf          # informe en formato IEEE
 ├── Informe/                       # fuente LaTeX del informe (Informe_Proyecto4.tex, valores.tex y figuras)
 ├── sustentacion.html              # presentación interactiva (ábrase en el navegador, funciona sin internet)
+├── scripts/                       # regeneran las cifras del informe (valores.tex) y los datos de la sustentación a partir de los resultados del cuaderno
 ├── Data/                          # CSV de la Planta 1 y la Planta 2 (Kaggle)
 ├── Otros_Datos/capacidad_solar_simem.csv       # capacidad solar de Colombia (XM/SIMEM)
 ├── Bibliografia/                  # artículos y normas consultadas
@@ -50,11 +51,11 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
-Abra `Proyecto4_Planta2.ipynb` y ejecute todas las celdas en orden (tarda unos 20 minutos). El cuaderno crea la carpeta `figuras/` con las gráficas y las tablas de resultados, y guarda las probabilidades día a día en `figuras/wf_probabilidades.pkl`.
+Abra `Proyecto4_Planta2.ipynb` y ejecute todas las celdas en orden (tarda unos 40 minutos). El cuaderno crea la carpeta `figuras/` con las gráficas y las tablas de resultados, y guarda las probabilidades día a día en `figuras/wf_probabilidades.pkl`.
 
 Los anexos de `experimento_anexo/` se ejecutan **después** del cuaderno principal: el Anexo B lee ese `wf_probabilidades.pkl`. Ambos encuentran solos la carpeta `Data/`.
 
-Para recompilar el informe: `pdflatex Informe_Proyecto4.tex` dentro de `Informe/` (dos veces). Las cifras del texto salen de `valores.tex`, generado a partir de los resultados del cuaderno.
+Para recompilar el informe: `pdflatex Informe_Proyecto4.tex` dentro de `Informe/` (dos veces). Las cifras del texto salen de `valores.tex`, que genera `scripts/generar_macros_informe.py` a partir de los resultados del cuaderno (ejecútese el cuaderno antes).
 
 ## Presentación
 

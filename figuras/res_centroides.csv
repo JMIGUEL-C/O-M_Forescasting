@@ -1,0 +1,5 @@
+grupo,energia_MWh,irr_kWh_m2,rendimiento_MWh_por_kWhm2,hora_pico,variabilidad_irr,inv_cero_prom,días entrenamiento,días prueba
+1,109.51,4.1,26.62,13.33,0.11,0.64,3,4
+2,122.3,5.63,21.78,10.85,0.09,3.18,10,3
+3,153.38,6.88,22.3,14.93,0.05,3.31,7,0
+4,158.93,6.39,24.97,10.07,0.05,1.75,7,0

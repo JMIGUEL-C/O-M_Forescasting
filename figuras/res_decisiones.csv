@@ -1,0 +1,27 @@
+﻿constante,valor,sección,evidencia,fuente
+SEMILLA,42,0.3,reproducibilidad,no es una decisión analítica
+UMBRAL_IRR,0.02,3.1.1,histograma y tabla de potencia por irradiancia (2.4.11),datos (IEC 61724-1 no fija el valor)
+LAGS,"(1, 2, 4)",3.1.2,ACF y PACF (2.3.5),práctica de ACF/PACF [Cantillo-Luna et al.]; la ventana de 1 h es supuesto del equipo
+FRAC_DIAS_TRAIN,0.8,3.1.4,partición cronológica frente a aleatoria,práctica en series de tiempo; la proporción es supuesto del equipo
+TRATAR_INCOMPLETOS,corregir,3.2.1,patrones de ausencia y validación de la corrección,"IEC 61724-1, cl. 15.3"
+INTERPOLAR_AUSENTES,False,3.2.2,error de interpolación y cambio de clase,supuesto del equipo respaldado por la prueba
+TRATAR_PLANTA_EN_CERO,mantener,3.2.3,episodios (2.4.7) y niveles con cero o con vecinos,"IEC 61724-1, cl. 15.3"
+HORA_VAR,dist_mediodia,3.3.3,comparación de tres formas de la hora,supuesto del equipo (diferencias pequeñas)
+WF_DIA_INICIO,14,4.2.1,diseño de la evaluación día a día,supuesto del equipo
+WF_DIA_PRUEBA,27,4.2.1,heredado de la partición cronológica de 3.1.4 (no se elige),"FRAC_DIAS_TRAIN, fijado antes de modelar"
+WF_DIA_ANIDADA,18,4.2.1,cuatro días mínimos para elegir en la anidada temporal,supuesto del equipo
+CRITERIO_SELECCION,regla_4.2.4,4.4.1,regla de 4.2.4 aplicada a combinaciones y referencias (R1),"decisión del grupo (D1, 23-nov)"
+N_BOOT,2000,4.2.1,bootstrap de días,supuesto del equipo
+RECALL_MIN_BAJO,0.7,4.2.4,razón de negocio (ventanas aprovechadas),supuesto del equipo
+TOL_EMPATE,0.01,4.2.4,diferencia indistinguible con pocos días,supuesto del equipo
+MODELO_INDIVIDUAL,"('Random Forest', 'C')",4.3.3,regla de selección sobre 51 ajustes,regla de 4.2.4
+MODELO_FINAL,"combinacion (mejor ensamble de R1: ['HGB (base)', 'RF (base)', 'LR + mezcla gaussiana', 'KNN'])",4.4.3,R1–R3 con los días 14–26 y selección anidada temporal,Cawley y Talbot [10]; REFORMS [16]; regla fijada antes de correr
+USAR_UMBRAL,False,4.4.4,comparación con y sin umbral,supuesto del equipo (decisión de negocio)
+CALIBRAR,False,4.4.4,comparación con y sin Platt,supuesto del equipo (no mejoró)
+TAU_MODO,oof,4.4.4,umbral elegido con predicciones fuera de muestra,supuesto del equipo
+TAU_FIJO,0.5,4.4.4,"solo se usa si TAU_MODO = ""fijo""",supuesto del equipo
+K_MAX,6,4.5,tamaño del entrenamiento (27 días),supuesto del equipo
+K_ELEGIDO,4,4.5,codo y silhouette,Santiago et al. (agrupar días por perfil); decisión del equipo
+HORAS_CENTRALES,"(9, 17)",5.1.1,precisión de bajo por hora,supuesto del equipo
+PRECIO_COP_KWH,350,5.1.4,ejemplo en pesos,supuesto del equipo (no es un dato)
+EJECUTAR_WALK_FORWARD,True,4.2.1,interruptor de cómputo,no es una decisión analítica

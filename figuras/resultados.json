@@ -1,0 +1,385 @@
+{
+ "python": "3.11.9",
+ "pandas": "3.1.1",
+ "numpy": "2.4.6",
+ "sklearn": "1.9.1",
+ "xgboost": "3.2.0",
+ "matplotlib": "3.11.2",
+ "nfilas": 1615,
+ "nentrena": 1275,
+ "nprueba": 340,
+ "ndiasentr": 27,
+ "ndiasprueba": 7,
+ "cortebm": 9042.862576115991,
+ "cortema": 15465.735873015872,
+ "hpico": 12.25,
+ "umbral": 0.02,
+ "nausentes": 5,
+ "nesperados": 3264,
+ "nregfaltan": 4110,
+ "pctregfaltan": 5.723596256684492,
+ "nincompletos": 459,
+ "nsol": 1623,
+ "pctincompletos": 28.280961182994453,
+ "errcorrmin": 1.4,
+ "errcorrmax": 5.1,
+ "errsincorrmin": 21.9,
+ "errsincorrmax": 50.4,
+ "nceros": 3798,
+ "nregsol": 33678,
+ "pctceros": 11.27739176910743,
+ "ntodocero": 9,
+ "errinterp": 9.599617591715477,
+ "cambiainterp": 18.911917098445596,
+ "pbajotest": 48.5,
+ "pmediotest": 45.9,
+ "paltotest": 5.6,
+ "naltotest": 19,
+ "mejormodelo": "Random Forest",
+ "mejorconj": "C",
+ "mejorparams": "{'max_depth': 8, 'min_samples_leaf': 5}",
+ "mejorcv": 0.7698262936379049,
+ "mejortrain": 0.8875436198972011,
+ "mejorf1": 0.6524003182985895,
+ "mejoracc": 0.7823529411764706,
+ "persf1": 0.6567844436265489,
+ "persacc": 0.7558823529411764,
+ "dummyclase": "alto",
+ "dummyf1": 0.035283194057567316,
+ "dummyacc": 0.05588235294117647,
+ "f1A": 0.682051974228845,
+ "f1B": 0.5691259926909832,
+ "f1C": 0.6619524715021329,
+ "aporteclima": -0.01976636357006357,
+ "K": 4,
+ "silh": 0.35206286284936156,
+ "nproyectos": 0,
+ "corrpot": 0.8918849901564735,
+ "corrirr": 0.8064385525917237,
+ "habA": 0.050719753157122516,
+ "habB": -0.12510271558329644,
+ "habC": 0.05231749697800858,
+ "horaelegida": "dist_mediodia",
+ "cm": [
+  [
+   127,
+   37,
+   1
+  ],
+  [
+   14,
+   130,
+   12
+  ],
+  [
+   0,
+   11,
+   8
+  ]
+ ],
+ "nsobre": 50,
+ "invsobre": 2.3,
+ "invbajook": 0.3464566929133858,
+ "irrAltoOk": 0.56,
+ "pAltoOk": 16818.02,
+ "irrAltoMed": 0.41,
+ "pAltoMed": 12381.49,
+ "finaltipo": "combinacion",
+ "busquedapaga": false,
+ "wfdiaprueba": 27,
+ "ndiassel": 13,
+ "ndiasanid": 9,
+ "antf1": 0.6703936110071734,
+ "antkappa": 0.6132148979273804,
+ "antprecbajo": 0.8717948717948718,
+ "antfalsosbajo": 20,
+ "r1f1": 0.6627415742043028,
+ "r1kappa": 0.6232716376915635,
+ "r1precbajo": 0.8874172185430463,
+ "r1recallbajo": 0.8121212121212121,
+ "r1falsosbajo": 17,
+ "finalmodelo": "Combinación persistencia-climatología",
+ "finalf1": 0.6695028244165265,
+ "finalacc": 0.7794117647058824,
+ "finalkappa": 0.6026056601421269,
+ "finalprecbajo": 0.900709219858156,
+ "finalrecallbajo": 0.7696969696969697,
+ "finalfalsosbajo": 14,
+ "finalvecesbajo": 141,
+ "finaltau": 0.8250000000000004,
+ "finalusaumbral": false,
+ "wconv": 0.7304394087585427,
+ "irrtr": 5.97993849260967,
+ "irrte": 4.023444990503003,
+ "etr": 138.43345285470494,
+ "ete": 104.46153490711667,
+ "rend0": 31456.78422048766,
+ "rend1": 19005.249790275542,
+ "tm0": 27.681147694018886,
+ "tm1": 53.88829202505747,
+ "caidaobs": 39.58298579707487,
+ "caidatemp": 10.482857732415432,
+ "reglas": [
+  {
+   "condiciones": [
+    [
+     "IRRADIATION_lag1",
+     "<=",
+     0.2917705476284027
+    ],
+    [
+     "IRRADIATION_lag1",
+     "<=",
+     0.21408729255199432
+    ],
+    [
+     "IRRADIATION_lag4",
+     "<=",
+     0.4224011152982712
+    ]
+   ],
+   "pct": 22.901960784313726,
+   "nivel": "bajo",
+   "pureza": 99.65753424657534
+  },
+  {
+   "condiciones": [
+    [
+     "IRRADIATION_lag1",
+     "<=",
+     0.2917705476284027
+    ],
+    [
+     "IRRADIATION_lag1",
+     "<=",
+     0.21408729255199432
+    ],
+    [
+     "IRRADIATION_lag4",
+     ">",
+     0.4224011152982712
+    ]
+   ],
+   "pct": 0.7843137254901961,
+   "nivel": "bajo",
+   "pureza": 80.0
+  },
+  {
+   "condiciones": [
+    [
+     "IRRADIATION_lag1",
+     "<=",
+     0.2917705476284027
+    ],
+    [
+     "IRRADIATION_lag1",
+     ">",
+     0.21408729255199432
+    ],
+    [
+     "MODULE_TEMPERATURE_lag1",
+     "<=",
+     34.30912399291992
+    ]
+   ],
+   "pct": 3.215686274509804,
+   "nivel": "medio",
+   "pureza": 51.21951219512195
+  },
+  {
+   "condiciones": [
+    [
+     "IRRADIATION_lag1",
+     "<=",
+     0.2917705476284027
+    ],
+    [
+     "IRRADIATION_lag1",
+     ">",
+     0.21408729255199432
+    ],
+    [
+     "MODULE_TEMPERATURE_lag1",
+     ">",
+     34.30912399291992
+    ]
+   ],
+   "pct": 3.607843137254902,
+   "nivel": "bajo",
+   "pureza": 91.30434782608695
+  },
+  {
+   "condiciones": [
+    [
+     "IRRADIATION_lag1",
+     ">",
+     0.2917705476284027
+    ],
+    [
+     "AC_PLANTA_KW_lag1",
+     "<=",
+     15695.666015625
+    ],
+    [
+     "AC_PLANTA_KW_lag1",
+     "<=",
+     12731.34326171875
+    ]
+   ],
+   "pct": 17.49019607843137,
+   "nivel": "medio",
+   "pureza": 70.4035874439462
+  },
+  {
+   "condiciones": [
+    [
+     "IRRADIATION_lag1",
+     ">",
+     0.2917705476284027
+    ],
+    [
+     "AC_PLANTA_KW_lag1",
+     "<=",
+     15695.666015625
+    ],
+    [
+     "AC_PLANTA_KW_lag1",
+     ">",
+     12731.34326171875
+    ]
+   ],
+   "pct": 20.784313725490197,
+   "nivel": "medio",
+   "pureza": 68.30188679245282
+  },
+  {
+   "condiciones": [
+    [
+     "IRRADIATION_lag1",
+     ">",
+     0.2917705476284027
+    ],
+    [
+     "AC_PLANTA_KW_lag1",
+     ">",
+     15695.666015625
+    ],
+    [
+     "IRRADIATION_lag1",
+     "<=",
+     0.5558303892612457
+    ]
+   ],
+   "pct": 1.2549019607843137,
+   "nivel": "medio",
+   "pureza": 75.0
+  },
+  {
+   "condiciones": [
+    [
+     "IRRADIATION_lag1",
+     ">",
+     0.2917705476284027
+    ],
+    [
+     "AC_PLANTA_KW_lag1",
+     ">",
+     15695.666015625
+    ],
+    [
+     "IRRADIATION_lag1",
+     ">",
+     0.5558303892612457
+    ]
+   ],
+   "pct": 29.96078431372549,
+   "nivel": "alto",
+   "pureza": 86.64921465968587
+  }
+ ],
+ "ncandidatos": 17,
+ "najustes": 51,
+ "ncombinaciones": 9403,
+ "ndiaswf": 20,
+ "psimcoincide": 100.0,
+ "nsimulados": 340,
+ "nventanas": 141,
+ "nalertasdesvio": 38,
+ "ninstceroscon": 64,
+ "ensmodelos": [
+  "HGB (base)",
+  "RF (base)",
+  "LR + mezcla gaussiana",
+  "KNN"
+ ],
+ "ensanterior": [
+  "RF (base)",
+  "LR ElasticNet",
+  "SVM lineal calibrada",
+  "LR + K-Means (k=6)"
+ ],
+ "percentilsel": 0.6053921568627451,
+ "rhomitades": 0.00985836219573248,
+ "elegidasdia": [
+  [
+   18,
+   "referencia",
+   "Combinación persistencia-climatología"
+  ],
+  [
+   19,
+   "ensamble",
+   "LR L2 (base) + RF (base) + LR interacciones + LR balanceada + Mezcla gaussiana por clase"
+  ],
+  [
+   20,
+   "ensamble",
+   "LR L2 (base) + RF (base) + LR interacciones + LR balanceada + Mezcla gaussiana por clase"
+  ],
+  [
+   21,
+   "ensamble",
+   "LR L2 (base) + RF (base) + LR interacciones + LR balanceada + Mezcla gaussiana por clase"
+  ],
+  [
+   22,
+   "referencia",
+   "Combinación persistencia-climatología"
+  ],
+  [
+   23,
+   "referencia",
+   "Combinación persistencia-climatología"
+  ],
+  [
+   24,
+   "referencia",
+   "Combinación persistencia-climatología"
+  ],
+  [
+   25,
+   "referencia",
+   "Combinación persistencia-climatología"
+  ],
+  [
+   26,
+   "ensamble",
+   "RF (base) + LR interacciones + LDA + LR + mezcla gaussiana + KNN"
+  ]
+ ],
+ "pctlmejorA": 0.5380434782608695,
+ "nnoche": 1636,
+ "ndescarte": 8,
+ "fugaAccSin": 0.7705882352941177,
+ "fugaKappaSin": 0.5747751214584635,
+ "fugaAccCon": 0.9558823529411765,
+ "fugaKappaCon": 0.9218151157442894,
+ "vscipy": "1.17.1",
+ "vstatsmodels": "0.15.0",
+ "vseaborn": "0.13.2",
+ "vmissingno": "0.5.2",
+ "vjoblib": "1.6.0",
+ "nescenarios": 9,
+ "nescpers": 9,
+ "nescregla": 9
+}

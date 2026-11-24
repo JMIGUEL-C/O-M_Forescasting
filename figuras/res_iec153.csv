@@ -1,0 +1,7 @@
+instantes,n,modelo,exactitud,F1 macro,precisión de bajo,falsos bajo
+todos los instantes,340,Combinación persistencia-climatología,0.7794117647058824,0.6695028244165265,0.900709219858156,14
+todos los instantes,340,Persistencia de la clase,0.7558823529411764,0.6567844436265489,0.8121212121212121,31
+sin inversores en cero,276,Combinación persistencia-climatología,0.7934782608695652,0.6889762073299336,0.9057971014492754,13
+sin inversores en cero,276,Persistencia de la clase,0.7644927536231884,0.6682439882500484,0.832258064516129,26
+con inversores en cero,64,Combinación persistencia-climatología,0.71875,0.43572455951096734,0.6666666666666666,1
+con inversores en cero,64,Persistencia de la clase,0.71875,0.5031749589122964,0.5,5
