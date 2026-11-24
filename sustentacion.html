@@ -1109,44 +1109,6 @@ button{font-family:inherit}
   const first = interesting.length ? interesting[interesting.length >> 1] : 100;
   const chip = c => ({ bg: CL[c], color: '#232321', bold: true, size: 12 });
 
-  /* ---------- COM · La mezcla de persistencia y climatología ---------- */
-  SL.push({
-    num: 'COM', kick: 'El modelo final', title: 'La mezcla de persistencia y climatología',
-    text: `El modelo final no es un ensamble: es una <b>mezcla de dos números</b>. Uno es la <b>persistencia</b> (lo último que midió la planta, hace 15 minutos). El otro es la <b>climatología</b> (la potencia típica de esa hora del día, calculada con los días de entrenamiento). Se mezclan con un peso <b>w = ${f2(W, 2)}</b> para la persistencia, que también sale del entrenamiento, y el nivel de la mezcla es la predicción.`,
-    lookTitle: 'Por qué es el modelo final', lookMax: 3,
-    look: ['Probamos 17 modelos y 9 403 combinaciones con una regla fijada antes de correr: ninguna búsqueda le ganó a esta mezcla con evidencia.', 'Se explica con dos números y no hay que reentrenar ni explicar cuatro modelos.', 'Tiene menos falsos «bajo» que el ensamble (ver la escena de comparación).'],
-    cam: { dist: 17.5, tx: 7, ty: 3, tz: 3, yaw: -0.15, pitch: 0.6 }, autoplay: true, defaults: { day: T.dia[first], k: byDay[T.dia[first]].indexOf(first), p: 0 }, max: 4, rate: 0.5, views: ['3d', 'front', 'top'],
-    shot(st) { st.p = 4; },
-    step(st) { st.p = Math.min(4, Math.floor(st.p + 1e-6) + 1); },
-    ctl: [{ t: 'play' }, { t: 'step' }, { t: 'reset' }, { t: 'seg', key: 'day', label: 'Día', opts: Object.keys(byDay).map(d => [+d, D.dias.lab[d]]), on: st => { st.k = Math.min(st.k, byDay[st.day].length - 1); } }, { t: 'range', key: 'k', label: 'Instante', min: 0, max: 47, step: 1, w: 120, fmt: v => 'n.º ' + (v + 1) }],
-    cap: 'Un instante real de la semana de prueba. Altura = potencia de la planta en kW. Las bandas de color son los tres niveles (bajo, medio, alto); la mezcla cae en uno de ellos.',
-    init() { leg(LEVELS); },
-    draw(S, st) {
-      const list = byDay[st.day], k = clamp(st.k, 0, list.length - 1), idx = list[k], ph = st.p;
-      const p1 = T.l1[idx], c1 = T.clim[idx], mix = W * p1 + (1 - W) * c1, nivel = lvl(mix);
-      S.grid(-2, -3.2, 18, 9, 1);
-      const STEPS = ['1 · Persistencia: lo último que midió la planta', '2 · Climatología: lo típico de esta hora del día', `3 · Mezcla: ${f2(W, 2)} de persistencia + ${f2(1 - W, 2)} de climatología`, '4 · El nivel de la mezcla es la predicción'];
-      S.text([7, -2.0, 0], STEPS[ph < 1 ? 0 : ph < 2 ? 1 : ph < 3 ? 2 : 3], { px: 15, bold: true, color: '#fff', bg: 'rgba(45,45,43,.94)' });
-      for (const [q, c] of [[q1, CL[0]], [q2, CL[1]]]) S.poly([[-1, -1.2, q / K], [15, -1.2, q / K], [15, 3.2, q / K], [-1, 3.2, q / K]], c, 0.07, { stroke: c });
-      const items = [['Persistencia', p1, '#77776F', 0], ['Climatología', c1, '#A8A8A0', 5], ['Mezcla', mix, '#FFFFFF', 10]];
-      items.forEach(([n, v, c, x], i) => {
-        const e = ease(ph - i), h = Math.max(0.03, v / K * e);
-        S.box(x, 0.4, 0, 3, 2.4, h, c, { tip: () => `<b>${n}</b>: ${fmt0(v)} kW` });
-        S.text([x + 1.5, 1.6, -0.1], n, { size: 11.5, color: '#D4D4CC', fixed: true, dy: 14 });
-        if (ph > i + 0.9) S.text([x + 1.5, 1.6, h + 0.6], fmt0(v) + ' kW', { size: 12, bold: true, color: '#fff', fixed: true, alpha: clamp((ph - i - 0.9) * 3, 0, 1) });
-      });
-      if (ph > 2.2) { S.text([3.1, 1.6, 6.2], '×' + f2(W, 2), { size: 13, bold: true, color: '#BDBDB5', fixed: true, alpha: clamp((ph - 2.2) * 2, 0, 1) }); S.text([8.0, 1.6, 6.2], '×' + f2(1 - W, 2), { size: 13, bold: true, color: '#BDBDB5', fixed: true, alpha: clamp((ph - 2.2) * 2, 0, 1) }); }
-      if (ph > 3) {
-        const a = clamp((ph - 3) * 2, 0, 1), okm = c => (c === T.y[idx] ? ' ✓' : ' ✗');
-        [['Real', T.y[idx]], ['Modelo final', T.pred[idx]], ['Persistencia', T.pers[idx]]].forEach(([n, c], i) => {
-          S.text([13.2, 2.2 - i * 1.0, 3.8], `${n}: ${NM[c]}${n === 'Real' ? '' : okm(c)}`, { align: 'left', alpha: a, fixed: true, ...chip(c) });
-        });
-      }
-      st.panel(`<h4>${hm(T.hora[idx])} · ${D.dias.lab[st.day]}</h4><div class="row"><span>Persistencia</span><span>${fmt0(p1)} kW</span></div><div class="row"><span>Climatología</span><span>${fmt0(c1)} kW</span></div><div class="row"><span><b style="color:#fff">Mezcla</b></span><span>${fmt0(mix)} kW → ${NM[nivel]}</span></div><div style="color:#8F8F88;margin-top:3px">cortes: bajo ≤ ${fmt0(q1)} kW · alto > ${fmt0(q2)} kW</div>`);
-    },
-  });
-  const fmt0 = v => Math.round(v).toLocaleString('es-CO');
-
   /* ---------- CMP · ¿Combinación o ensamble? ---------- */
   const pr = pre => D.principal[Object.keys(D.principal).find(k => k.startsWith(pre))];
   const wfr = n => D.wf_conf.find(r => r.m === n);
@@ -1157,11 +1119,11 @@ button{font-family:inherit}
   const PRECIO = D.costo.find(r => r['cómo se elige la hora'].startsWith('Modelo final'))['COP en falsos bajo (planta completa)'] / (pr('Combinación')['MWh en falsos bajo (cota)'] * 1000);
   const CC = '#FFFFFF', CE = '#8FA3B8';
   SL.push({
-    num: 'CMP', kick: 'Evaluar', title: '¿Combinación o ensamble?',
-    text: `Con la regla fijada de antemano, el ensamble no demostró ser mejor. Aun así lo comparamos de frente en la semana de prueba. El ensamble avisa de <b>más bajos verdaderos</b>, pero también se equivoca <b>más veces</b> al decir «bajo», y cada falso «bajo» es una intervención en vano con la planta produciendo.`,
+    num: 'CMP', kick: 'Modelar', title: 'El modelo final frente al ensamble',
+    text: `Dos opciones. El <b>ensamble</b> promedia cuatro modelos. El <b>modelo final</b> es una mezcla de dos números: lo último que midió la planta (persistencia) y lo típico de esa hora del día (climatología). La regla fijada de antemano no encontró ventaja del ensamble, y al compararlos de frente en la semana de prueba el ensamble avisa de <b>más bajos verdaderos</b>, pero se equivoca <b>más veces</b> al decir «bajo»: y cada falso «bajo» es una intervención en vano con la planta produciendo.`,
     lookTitle: 'Qué mirar', lookMax: 3,
     look: ['Falsos «bajo»: la combinación tiene menos, en los dos tipos de evaluación.', 'Precisión de «bajo»: de las veces que dicen «bajo», acierta el 90 % la combinación y el 89 % el ensamble: muy parecidas.', 'Millones de COP: lo que se pierde en los falsos «bajo» si se desconecta la planta completa 15 minutos (supuesto de precio y de alcance).'],
-    cam: { dist: 24, tx: 8, ty: 1.5, tz: 3, yaw: -0.5, pitch: 0.5 }, defaults: { part: 'one' },
+    cam: { dist: 22, tx: 9.5, ty: 1, tz: 3.8, yaw: 0, pitch: 0.18 }, defaults: { part: 'one' }, views: ['front', '3d'],
     ctl: [{ t: 'seg', key: 'part', label: 'Evaluación', opts: [['one', 'Un solo ajuste'], ['day', 'Día a día']] }],
     cap: 'Semana de prueba (7 días, 340 instantes). Cada grupo tiene su propia escala. Los millones de COP son una cota: planta completa, 15 minutos y un precio supuesto por el equipo.',
     takeTitle: 'Por qué elegimos la combinación',
@@ -1171,7 +1133,7 @@ button{font-family:inherit}
       if (st.part !== st._p) { st._p = st.part; st.t = 0; }
       st.t += dt; const e = ease(st.t / 0.9);
       const c = rowOf(st.part, 'c'), n = rowOf(st.part, 'e');
-      const grupos = [['Falsos «bajo»', c.fb, n.fb, v => String(Math.round(v))], ['Bajos verdaderos', c.tp, n.tp, v => String(Math.round(v))], ['Precisión de «bajo»', c.prec, n.prec, v => Math.round(v * 100) + ' %'], ['Millones de COP en falsos «bajo»', c.mwh * 1000 * PRECIO / 1e6, n.mwh * 1000 * PRECIO / 1e6, v => f2(v, 1)]];
+      const grupos = [['Falsos «bajo»', c.fb, n.fb, v => String(Math.round(v))], ['Bajos acertados', c.tp, n.tp, v => String(Math.round(v))], ['Precisión', c.prec, n.prec, v => Math.round(v * 100) + ' %'], ['COP (millones)', c.mwh * 1000 * PRECIO / 1e6, n.mwh * 1000 * PRECIO / 1e6, v => f2(v, 1)]];
       S.grid(-1.5, -2.2, 21, 5, 1); const U = 8;
       grupos.forEach(([lab, a, b, f], g) => {
         const mx = Math.max(a, b);
@@ -1231,8 +1193,7 @@ button{font-family:inherit}
     '08': { act: 5, bridge: 'Hora de medirlo con días que el modelo no vio.',
       kick: 'Evaluar', title: 'Lo que ganamos, y cuánto',
       take: `Frente a la persistencia, el modelo final (persistencia + climatología) sube la precisión de «bajo» de ${f2(wPers['precisión de bajo'], 2)} a ${f2(wcf('Combinación persistencia-climatología')['precisión de bajo'], 2)} y baja los falsos «bajo» de ${Math.round(wPers['falsos bajo'])} a ${Math.round(wcf('Combinación persistencia-climatología')['falsos bajo'])} en los 7 días de prueba, aprovechando el ${Math.round(wcf('Combinación persistencia-climatología')['recall de bajo'] * 100)} % de las ventanas bajas (el piso era 70 %). El ensamble de la regla no mejora eso.` },
-    'COM': { act: 4, bridge: 'Si buscar entre miles de combinaciones no ayudó, ¿qué queda? Algo mucho más simple.' },
-    'CMP': { act: 5, bridge: 'Entonces, entre el ensamble y la mezcla de dos números: ¿cuál elegimos y por qué?' },
+    'CMP': { act: 4, bridge: 'Si buscar no ayudó, ¿con qué nos quedamos? Comparemos el ensamble con una mezcla de dos números.' },
     'UMB': { act: 5, bridge: 'Y si queremos aún menos falsos «bajo», hay un botón.' },
     '10': { act: 5, bridge: 'Con el modelo evaluado: ¿falla igual todos los días?', opt: true,
       kick: 'Evaluar', title: 'Dónde acierta y dónde falla',
@@ -1246,7 +1207,7 @@ button{font-family:inherit}
       take: 'Siguiente paso: reentrenar con plantas colombianas, sumar el registro de mantenimientos y fijar el umbral de «bajo» con los costos reales de la empresa.' },
   };
   SL.forEach(s => { if (O[s.num]) Object.assign(s, O[s.num]); });
-  const ORDER = ['00', 'CTX', 'BAJ', '01', '02', '03', 'L1', '04', '05', 'CRI', '07', 'COM', '08', 'CMP', 'UMB', '10', '12', 'A1', 'A2'];
+  const ORDER = ['00', 'CTX', 'BAJ', '01', '02', '03', 'L1', '04', '05', 'CRI', '07', 'CMP', '08', 'UMB', '10', '12', 'A1', 'A2'];
   const out = ORDER.map(n => byNum[n]);
   SL.length = 0; out.forEach((s, i) => { s.opt = !!s.opt; s.num = String(i + 1).padStart(2, '0'); SL.push(s); });
   window.ACTS = ['Entender el negocio', 'Explorar los datos', 'Preparar los datos', 'Modelar', 'Evaluar', 'Desplegar'];
