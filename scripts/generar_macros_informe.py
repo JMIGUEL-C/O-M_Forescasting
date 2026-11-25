@@ -66,7 +66,7 @@ for tag, row in FILAS.items():
     for c, col in CAMPOS.items():
         M[f't{tag}{c}'] = str(int(row[col])) if c == 'FalsosBajo' else (f1(row[col]) if c == 'MWh' else f3(row[col]))
 M['tDummyAcc'], M['tDummyFmacro'] = f3(r['dummyacc']), f3(r['dummyf1'])
-# combinación (modelo final) frente al ensamble de R1: bajos verdaderos y energía de los falsos bajo adicionales
+# modelo final frente al ensamble de R1: bajos verdaderos y energía de los falsos bajo adicionales
 M['tpFin'] = str(int(FILAS['Fin']['veces que dijo bajo'] - FILAS['Fin']['falsos bajo'])); M['tpRone'] = str(int(FILAS['Rone']['veces que dijo bajo'] - FILAS['Rone']['falsos bajo']))
 M['tVecesRone'] = str(int(FILAS['Rone']['veces que dijo bajo']))
 precio_kwh = leer('res_pesos.csv', index_col=0).filter(like='Modelo final', axis=0)['COP en falsos bajo (planta completa)'].iloc[0] / (FILAS['Fin']['MWh en falsos bajo (cota)'] * 1000)   # COP/kWh del cuaderno (PRECIO_COP_KWH)
@@ -80,20 +80,19 @@ mejores = {c: (min if c == 'falsos bajo' else max)(FILAS[t][c] for t in cands) f
 def celda(t, c):
     v = FILAS[t][c]; s = str(int(v)) if c == 'falsos bajo' else f3(v)
     return rf'\textbf{{{s}}}' if t in cands and v == mejores[c] else s
-etiq = {'Clim': 'Climatolog\\\'ia', 'Pers': 'Persistencia', 'Comb': 'Persist.\\ + climatol.', 'Mejor': 'Bosque aleatorio (C)', 'Rone': 'Ensamble de R1 (4 modelos)', 'Ant': 'Ensamble anterior$^\\dagger$'}
-etiq['Comb'] = etiq['Comb'] + ' (final)'
+etiq = {'Clim': 'Climatolog\\\'ia', 'Pers': 'Persistencia', 'Comb': 'Persist.\\ + climatol.', 'Mejor': 'Bosque aleatorio (C, final)', 'Rone': 'Ensamble de R1 (4 modelos)', 'Ant': 'Ensamble anterior$^\\dagger$'}
 filas_tex = [rf"Clase m\'as frecuente & {f3(r['dummyacc'])} & {f3(r['dummyf1'])} & 0.000 & -- & -- & -- \\"]
 for t in ('Clim', 'Pers', 'Comb', 'Mejor', 'Rone', 'Ant'):
     filas_tex.append(f"{etiq[t]} & " + ' & '.join(celda(t, c) for c in cols) + r' \\')
 M['filasResultados'] = '\n'.join(filas_tex)
-assert FILAS['Fin']['F1 macro'] == FILAS['Comb']['F1 macro'] or r['finaltipo'] != 'combinacion'
+assert r['finaltipo'] != 'individual' or FILAS['Fin']['F1 macro'] == FILAS['Mejor']['F1 macro'], 'el modelo final individual debe ser el mejor individual de la partición principal'
 
 # ---- evaluación día a día de la semana de prueba
 pru = leer('res_walkforward_prueba.csv', index_col=0)
-for tag, nom in {'Pers': 'Persistencia', 'Fin': 'Modelo final', 'Rone': 'Ensamble (sin umbral)', 'Arbol': 'Árbol individual', 'Ant': 'Ensamble anterior'}.items():
+for tag, nom in {'Pers': 'Persistencia', 'Fin': 'Modelo final', 'Rone': 'Ensamble (sin umbral)', 'Comb': 'Combinación persistencia-climatología', 'Ant': 'Ensamble anterior'}.items():
     for c, col in {'Fmacro': 'F1 macro', 'Kappa': 'kappa', 'Prec': 'precisión de bajo', 'Rec': 'recall de bajo'}.items(): M[f'pru{tag}{c}'] = f3(pru.loc[nom, col])
 boot = leer('res_walkforward_bootstrap.csv')
-A = {'Modelo final': 'Fin', 'Ensamble (sin umbral)': 'Rone', 'Ensamble + umbral para bajo': 'Umb', 'Árbol individual': 'Arbol'}
+A = {'Modelo final': 'Fin', 'Ensamble (sin umbral)': 'Rone', 'Ensamble + umbral para bajo': 'Umb'}
 B = {'Persistencia': 'Pers', 'Combinación persistencia-climatología': 'Comb'}
 Mt = {'F1 macro': 'Fmacro', 'kappa': 'Kappa', 'precisión de bajo': 'Prec', 'recall de bajo': 'Rec'}
 for _, x in boot.iterrows():
@@ -113,10 +112,10 @@ for tag, i in (('Uno', 0), ('Dos', 1)):
     M[f'g{tag}Dias'] = str(int(g['días'].iloc[i])); M[f'g{tag}Err'] = f1(g['error %'].iloc[i]); M[f'g{tag}Kappa'] = f2(g['kappa'].iloc[i]); M[f'g{tag}Inv'] = f2(g['inversores en cero (prom.)'].iloc[i])
 iec = leer('res_iec153.csv')
 for sub, tag in (('todos los instantes', 'Todos'), ('sin inversores en cero', 'Sin'), ('con inversores en cero', 'Con')):
-    for mod, mt in (('Combinación', 'Fin'), ('Persistencia', 'Pers')):
+    for mod, mt in (('Random Forest', 'Fin'), ('Persistencia', 'Pers')):
         x = iec[(iec.instantes == sub) & iec.modelo.str.startswith(mod)].iloc[0]
         M[f'iec{tag}{mt}Fmacro'], M[f'iec{tag}{mt}FalsosBajo'], M[f'iec{tag}N'] = f3(x['F1 macro']), str(int(x['falsos bajo'])), str(int(x['n']))
-assert r['finaltipo'] == 'combinacion', 'iec153 y pesos usan el modelo final; revisar las etiquetas si cambia'
+assert r['finaltipo'] == 'individual', 'iec153 y pesos usan el modelo final; revisar las etiquetas si cambia'
 
 # ---- costo en pesos (ilustrativo)
 pe = leer('res_pesos.csv', index_col=0)

@@ -1,341 +1,341 @@
 ﻿instante,predicho,prob_bajo,real,ventana_mantenimiento,n_inv_cero,alerta,causa_probable,fecha
-2020-06-11 06:45:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 07:00:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 07:15:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 07:30:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 07:45:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 08:00:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 08:15:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 08:30:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 08:45:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 09:00:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 09:15:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 09:30:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-11
-2020-06-11 09:45:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 10:00:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 10:15:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 10:30:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 10:45:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 11:00:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 11:15:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 11:30:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 11:45:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 12:00:00,medio,,bajo,False,22,desvío: se esperaba medio y fue bajo | 22 inversores en cero con sol,"inversores en cero (inv01, inv02, inv03, inv04, inv05, inv06, inv07, inv08, inv09, inv10, inv11, inv12, inv13, inv14, inv15, inv16, inv17, inv18, inv19, inv20, inv21, inv22): revisar MPPT, comunicación o protecciones",2020-06-11
-2020-06-11 12:15:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 12:30:00,bajo,,medio,True,0,,,2020-06-11
-2020-06-11 12:45:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 13:00:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 13:15:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 13:30:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 13:45:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 14:00:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 14:15:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 14:30:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-11
-2020-06-11 14:45:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-11
-2020-06-11 15:00:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 15:15:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 15:30:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-11
-2020-06-11 15:45:00,medio,,medio,False,0,,,2020-06-11
-2020-06-11 16:00:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-11
-2020-06-11 16:15:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 16:30:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 16:45:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 17:00:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 17:15:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 17:30:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 17:45:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 18:00:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-11 18:15:00,bajo,,bajo,True,0,,,2020-06-11
-2020-06-12 06:30:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 06:45:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 07:00:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 07:15:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 07:30:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 07:45:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 08:00:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 08:15:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 08:30:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 08:45:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 09:00:00,bajo,,medio,True,0,,,2020-06-12
-2020-06-12 09:15:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-12
-2020-06-12 09:30:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 09:45:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 10:00:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-12
-2020-06-12 10:15:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-12
-2020-06-12 10:30:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 10:45:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 11:00:00,bajo,,medio,True,0,,,2020-06-12
-2020-06-12 11:15:00,medio,,alto,False,0,,,2020-06-12
-2020-06-12 11:30:00,alto,,medio,False,0,,,2020-06-12
-2020-06-12 11:45:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 12:00:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 12:15:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 12:30:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 12:45:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 13:00:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-12
-2020-06-12 13:15:00,bajo,,medio,True,0,,,2020-06-12
-2020-06-12 13:30:00,medio,,medio,False,5,5 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv16",2020-06-12
-2020-06-12 13:45:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 14:00:00,medio,,alto,False,0,,,2020-06-12
-2020-06-12 14:15:00,alto,,medio,False,0,,,2020-06-12
-2020-06-12 14:30:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 14:45:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 15:00:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 15:15:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 15:30:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 15:45:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 16:00:00,medio,,medio,False,0,,,2020-06-12
-2020-06-12 16:15:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-12
-2020-06-12 16:30:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 16:45:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 17:00:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 17:15:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 17:30:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 17:45:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 18:00:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 18:15:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-12 18:30:00,bajo,,bajo,True,0,,,2020-06-12
-2020-06-13 06:15:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-13 06:30:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-13 06:45:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-13 07:00:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-13 07:15:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-13 07:30:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-13 07:45:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-13 08:00:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-13 08:15:00,bajo,,medio,True,0,,,2020-06-13
-2020-06-13 08:30:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-13
-2020-06-13 08:45:00,medio,,medio,False,0,,,2020-06-13
-2020-06-13 09:00:00,medio,,medio,False,0,,,2020-06-13
-2020-06-13 09:15:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-13
-2020-06-13 09:30:00,medio,,medio,False,0,,,2020-06-13
-2020-06-13 09:45:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-13
-2020-06-13 10:00:00,bajo,,medio,True,0,,,2020-06-13
-2020-06-13 10:15:00,medio,,medio,False,0,,,2020-06-13
-2020-06-13 10:30:00,medio,,bajo,False,8,desvío: se esperaba medio y fue bajo | 8 inversores en cero con sol,"inversores en cero (inv01, inv03, inv04, inv11, inv12, inv14, inv17, inv20): revisar MPPT, comunicación o protecciones",2020-06-13
-2020-06-13 10:45:00,bajo,,bajo,True,22,22 inversores en cero con sol,"revisar los inversores en cero: inv01, inv02, inv03, inv04, inv05, inv06, inv07, inv08, inv09, inv10, inv11, inv12, inv13, inv14, inv15, inv16, inv17, inv18, inv19, inv20, inv21, inv22",2020-06-13
-2020-06-13 11:00:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-13 11:15:00,medio,,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv15, inv16, inv21",2020-06-13
-2020-06-13 11:30:00,medio,,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv15, inv16, inv21",2020-06-13
-2020-06-13 11:45:00,medio,,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
-2020-06-13 12:00:00,medio,,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
-2020-06-13 12:15:00,medio,,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
-2020-06-13 12:30:00,alto,,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
-2020-06-13 12:45:00,medio,,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
-2020-06-13 13:00:00,medio,,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
-2020-06-13 13:15:00,medio,,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
-2020-06-13 13:30:00,medio,,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv11, inv13, inv16, inv21",2020-06-13
-2020-06-13 13:45:00,medio,,bajo,False,8,desvío: se esperaba medio y fue bajo | 8 inversores en cero con sol,"inversores en cero (inv03, inv05, inv07, inv08, inv11, inv13, inv16, inv21): revisar MPPT, comunicación o protecciones",2020-06-13
-2020-06-13 14:00:00,bajo,,medio,True,6,6 inversores en cero con sol,"revisar los inversores en cero: inv03, inv07, inv08, inv11, inv13, inv16",2020-06-13
-2020-06-13 14:15:00,medio,,medio,False,4,4 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv21",2020-06-13
-2020-06-13 14:30:00,medio,,alto,False,5,5 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv21",2020-06-13
-2020-06-13 14:45:00,alto,,bajo,False,6,desvío: se esperaba alto y fue bajo | 6 inversores en cero con sol,"inversores en cero (inv03, inv05, inv07, inv08, inv16, inv21): revisar MPPT, comunicación o protecciones",2020-06-13
-2020-06-13 15:00:00,medio,,medio,False,0,,,2020-06-13
-2020-06-13 15:15:00,medio,,medio,False,0,,,2020-06-13
-2020-06-13 15:30:00,medio,,medio,False,0,,,2020-06-13
-2020-06-13 15:45:00,medio,,medio,False,0,,,2020-06-13
-2020-06-13 16:00:00,medio,,medio,False,0,,,2020-06-13
-2020-06-13 16:15:00,medio,,medio,False,0,,,2020-06-13
-2020-06-13 16:30:00,medio,,medio,False,0,,,2020-06-13
-2020-06-13 16:45:00,bajo,,medio,True,0,,,2020-06-13
-2020-06-13 17:00:00,medio,,medio,False,0,,,2020-06-13
-2020-06-13 17:15:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-13
-2020-06-13 17:30:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-13 17:45:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-13 18:00:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-13 18:15:00,bajo,,bajo,True,0,,,2020-06-13
-2020-06-14 06:15:00,bajo,,bajo,True,0,,,2020-06-14
-2020-06-14 06:30:00,bajo,,bajo,True,0,,,2020-06-14
-2020-06-14 06:45:00,bajo,,bajo,True,0,,,2020-06-14
-2020-06-14 07:00:00,bajo,,bajo,True,0,,,2020-06-14
-2020-06-14 07:15:00,bajo,,bajo,True,0,,,2020-06-14
-2020-06-14 07:30:00,bajo,,bajo,True,0,,,2020-06-14
-2020-06-14 07:45:00,bajo,,medio,True,0,,,2020-06-14
-2020-06-14 08:00:00,medio,,medio,False,0,,,2020-06-14
-2020-06-14 08:15:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-14
-2020-06-14 08:30:00,medio,,medio,False,0,,,2020-06-14
-2020-06-14 08:45:00,medio,,medio,False,0,,,2020-06-14
-2020-06-14 09:00:00,medio,,medio,False,0,,,2020-06-14
-2020-06-14 09:15:00,alto,,medio,False,0,,,2020-06-14
-2020-06-14 09:30:00,medio,,medio,False,4,4 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv11, inv12",2020-06-14
-2020-06-14 09:45:00,medio,,medio,False,4,4 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv11, inv12",2020-06-14
-2020-06-14 10:00:00,medio,,medio,False,4,4 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv11, inv12",2020-06-14
-2020-06-14 10:15:00,medio,,medio,False,5,5 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12",2020-06-14
-2020-06-14 10:30:00,medio,,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
-2020-06-14 10:45:00,medio,,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
-2020-06-14 11:00:00,medio,,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
-2020-06-14 11:15:00,medio,,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
-2020-06-14 11:30:00,medio,,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
-2020-06-14 11:45:00,medio,,medio,False,7,7 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv13, inv16, inv17",2020-06-14
-2020-06-14 12:00:00,medio,,medio,False,7,7 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv13, inv16, inv17",2020-06-14
-2020-06-14 12:15:00,medio,,alto,False,7,7 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv13, inv16, inv17",2020-06-14
-2020-06-14 12:30:00,alto,,alto,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
-2020-06-14 12:45:00,alto,,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
-2020-06-14 13:00:00,medio,,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv09, inv11, inv12, inv13, inv15, inv16, inv17",2020-06-14
-2020-06-14 13:15:00,medio,,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv09, inv11, inv12, inv13, inv15, inv16, inv17",2020-06-14
-2020-06-14 13:30:00,medio,,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv09, inv11, inv12, inv13, inv15, inv16, inv17",2020-06-14
-2020-06-14 13:45:00,medio,,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv09, inv11, inv12, inv13, inv15, inv16, inv17",2020-06-14
-2020-06-14 14:00:00,medio,,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
-2020-06-14 14:15:00,medio,,medio,False,4,4 inversores en cero con sol,"revisar los inversores en cero: inv01, inv08, inv11, inv16",2020-06-14
-2020-06-14 14:30:00,medio,,medio,False,0,,,2020-06-14
-2020-06-14 14:45:00,medio,,alto,False,0,,,2020-06-14
-2020-06-14 15:00:00,alto,,medio,False,1,1 inversores en cero con sol,revisar los inversores en cero: inv11,2020-06-14
-2020-06-14 15:15:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-14
-2020-06-14 15:30:00,bajo,,medio,True,0,,,2020-06-14
-2020-06-14 15:45:00,medio,,alto,False,0,,,2020-06-14
-2020-06-14 16:00:00,alto,,medio,False,0,,,2020-06-14
-2020-06-14 16:15:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-14
-2020-06-14 16:30:00,bajo,,medio,True,0,,,2020-06-14
-2020-06-14 16:45:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-14
-2020-06-14 17:00:00,bajo,,bajo,True,0,,,2020-06-14
-2020-06-14 17:15:00,bajo,,bajo,True,0,,,2020-06-14
-2020-06-14 17:30:00,bajo,,bajo,True,0,,,2020-06-14
-2020-06-14 17:45:00,bajo,,bajo,True,0,,,2020-06-14
-2020-06-14 18:00:00,bajo,,bajo,True,0,,,2020-06-14
-2020-06-14 18:15:00,bajo,,bajo,True,0,,,2020-06-14
-2020-06-15 06:15:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 06:30:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 06:45:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 07:00:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 07:15:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 07:30:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 07:45:00,bajo,,medio,True,0,,,2020-06-15
-2020-06-15 08:00:00,medio,,medio,False,0,,,2020-06-15
-2020-06-15 08:15:00,medio,,medio,False,0,,,2020-06-15
-2020-06-15 08:30:00,medio,,medio,False,3,3 inversores en cero con sol,"revisar los inversores en cero: inv04, inv11, inv12",2020-06-15
-2020-06-15 08:45:00,medio,,medio,False,3,3 inversores en cero con sol,"revisar los inversores en cero: inv04, inv11, inv12",2020-06-15
-2020-06-15 09:00:00,medio,,medio,False,6,6 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv16",2020-06-15
-2020-06-15 09:15:00,medio,,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17",2020-06-15
-2020-06-15 09:30:00,medio,,bajo,False,5,desvío: se esperaba medio y fue bajo | 5 inversores en cero con sol,"inversores en cero (inv01, inv04, inv11, inv12, inv13): revisar MPPT, comunicación o protecciones",2020-06-15
-2020-06-15 09:45:00,medio,,medio,False,5,5 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv11, inv12, inv13",2020-06-15
-2020-06-15 10:00:00,medio,,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17",2020-06-15
-2020-06-15 10:15:00,medio,,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17",2020-06-15
-2020-06-15 10:30:00,medio,,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17, inv19",2020-06-15
-2020-06-15 10:45:00,medio,,bajo,False,7,desvío: se esperaba medio y fue bajo | 7 inversores en cero con sol,"inversores en cero (inv01, inv08, inv10, inv11, inv13, inv16, inv17): revisar MPPT, comunicación o protecciones",2020-06-15
-2020-06-15 11:00:00,medio,,bajo,False,7,desvío: se esperaba medio y fue bajo | 7 inversores en cero con sol,"inversores en cero (inv01, inv08, inv10, inv11, inv13, inv16, inv17): revisar MPPT, comunicación o protecciones",2020-06-15
-2020-06-15 11:15:00,medio,,medio,False,7,7 inversores en cero con sol,"revisar los inversores en cero: inv01, inv08, inv10, inv11, inv13, inv16, inv17",2020-06-15
-2020-06-15 11:30:00,medio,,bajo,False,8,desvío: se esperaba medio y fue bajo | 8 inversores en cero con sol,"inversores en cero (inv04, inv08, inv10, inv12, inv13, inv16, inv17, inv19): revisar MPPT, comunicación o protecciones",2020-06-15
-2020-06-15 11:45:00,medio,,bajo,False,8,desvío: se esperaba medio y fue bajo | 8 inversores en cero con sol,"inversores en cero (inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv19): revisar MPPT, comunicación o protecciones",2020-06-15
-2020-06-15 12:00:00,medio,,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17, inv19",2020-06-15
-2020-06-15 12:15:00,medio,,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17, inv19",2020-06-15
-2020-06-15 12:30:00,medio,,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17, inv19",2020-06-15
-2020-06-15 12:45:00,medio,,bajo,False,8,desvío: se esperaba medio y fue bajo | 8 inversores en cero con sol,"inversores en cero (inv01, inv08, inv10, inv11, inv13, inv16, inv17, inv19): revisar MPPT, comunicación o protecciones",2020-06-15
-2020-06-15 13:00:00,medio,,bajo,False,6,desvío: se esperaba medio y fue bajo | 6 inversores en cero con sol,"inversores en cero (inv08, inv10, inv13, inv16, inv17, inv19): revisar MPPT, comunicación o protecciones",2020-06-15
-2020-06-15 13:15:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-15
-2020-06-15 13:30:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 13:45:00,medio,,medio,False,0,,,2020-06-15
-2020-06-15 14:00:00,medio,,medio,False,2,2 inversores en cero con sol,"revisar los inversores en cero: inv13, inv16",2020-06-15
-2020-06-15 14:15:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-15
-2020-06-15 14:30:00,medio,,medio,False,0,,,2020-06-15
-2020-06-15 14:45:00,medio,,medio,False,2,2 inversores en cero con sol,"revisar los inversores en cero: inv04, inv12",2020-06-15
-2020-06-15 15:00:00,medio,,medio,False,0,,,2020-06-15
-2020-06-15 15:15:00,medio,,medio,False,0,,,2020-06-15
-2020-06-15 15:30:00,medio,,medio,False,0,,,2020-06-15
-2020-06-15 15:45:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-15
-2020-06-15 16:00:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 16:15:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 16:30:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 16:45:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 17:00:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 17:15:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 17:30:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 17:45:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 18:00:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 18:15:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-15 18:30:00,bajo,,bajo,True,0,,,2020-06-15
-2020-06-16 06:15:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 06:30:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 06:45:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 07:00:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 07:15:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 07:30:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 07:45:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 08:00:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 08:15:00,bajo,,medio,True,0,,,2020-06-16
-2020-06-16 08:30:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 08:45:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 09:00:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 09:15:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 09:30:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 09:45:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 10:00:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 10:15:00,medio,,alto,False,0,,,2020-06-16
-2020-06-16 10:30:00,alto,,medio,False,0,,,2020-06-16
-2020-06-16 10:45:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 11:00:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 11:15:00,medio,,alto,False,0,,,2020-06-16
-2020-06-16 11:30:00,alto,,alto,False,0,,,2020-06-16
-2020-06-16 11:45:00,alto,,medio,False,4,4 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv11, inv12",2020-06-16
-2020-06-16 12:00:00,medio,,medio,False,3,3 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv11",2020-06-16
-2020-06-16 12:15:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 12:30:00,medio,,alto,False,0,,,2020-06-16
-2020-06-16 12:45:00,alto,,alto,False,0,,,2020-06-16
-2020-06-16 13:00:00,alto,,alto,False,0,,,2020-06-16
-2020-06-16 13:15:00,alto,,alto,False,0,,,2020-06-16
-2020-06-16 13:30:00,alto,,medio,False,0,,,2020-06-16
-2020-06-16 13:45:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 14:00:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 14:15:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-16
-2020-06-16 14:30:00,bajo,,bajo,True,22,22 inversores en cero con sol,"revisar los inversores en cero: inv01, inv02, inv03, inv04, inv05, inv06, inv07, inv08, inv09, inv10, inv11, inv12, inv13, inv14, inv15, inv16, inv17, inv18, inv19, inv20, inv21, inv22",2020-06-16
-2020-06-16 14:45:00,bajo,,medio,True,0,,,2020-06-16
-2020-06-16 15:00:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 15:15:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 15:30:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 15:45:00,medio,,medio,False,0,,,2020-06-16
-2020-06-16 16:00:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-16
-2020-06-16 16:15:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 16:30:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 16:45:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 17:00:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 17:15:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 17:30:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 17:45:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-16 18:00:00,bajo,,bajo,True,0,,,2020-06-16
-2020-06-17 06:30:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 06:45:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 07:00:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 07:15:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 07:30:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 07:45:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 08:00:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 08:15:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 08:30:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 08:45:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 09:00:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 09:15:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 09:30:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 09:45:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 10:00:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 10:15:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 10:30:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 10:45:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 11:00:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 11:15:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-17
-2020-06-17 11:30:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 11:45:00,medio,,alto,False,0,,,2020-06-17
-2020-06-17 12:00:00,alto,,medio,False,0,,,2020-06-17
-2020-06-17 12:15:00,medio,,alto,False,0,,,2020-06-17
-2020-06-17 12:30:00,alto,,alto,False,0,,,2020-06-17
-2020-06-17 12:45:00,alto,,alto,False,0,,,2020-06-17
-2020-06-17 13:00:00,alto,,alto,False,0,,,2020-06-17
-2020-06-17 13:15:00,alto,,medio,False,0,,,2020-06-17
-2020-06-17 13:30:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 13:45:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-17
-2020-06-17 14:00:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 14:15:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 14:30:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 14:45:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 15:00:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 15:15:00,medio,,medio,False,0,,,2020-06-17
-2020-06-17 15:30:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-17
-2020-06-17 15:45:00,medio,,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-17
-2020-06-17 16:00:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 16:15:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 16:30:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 16:45:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 17:00:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 17:15:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 17:30:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 17:45:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 18:00:00,bajo,,bajo,True,0,,,2020-06-17
-2020-06-17 18:15:00,bajo,,bajo,True,0,,,2020-06-17
+2020-06-11 06:45:00,bajo,1.0,bajo,True,0,,,2020-06-11
+2020-06-11 07:00:00,bajo,1.0,bajo,True,0,,,2020-06-11
+2020-06-11 07:15:00,bajo,1.0,bajo,True,0,,,2020-06-11
+2020-06-11 07:30:00,bajo,0.9966414141414142,bajo,True,0,,,2020-06-11
+2020-06-11 07:45:00,bajo,0.9809276042737929,bajo,True,0,,,2020-06-11
+2020-06-11 08:00:00,bajo,0.9683110915966258,bajo,True,0,,,2020-06-11
+2020-06-11 08:15:00,bajo,0.951124935160469,bajo,True,0,,,2020-06-11
+2020-06-11 08:30:00,bajo,0.9579033823468108,bajo,True,0,,,2020-06-11
+2020-06-11 08:45:00,bajo,0.9004335656138365,bajo,True,0,,,2020-06-11
+2020-06-11 09:00:00,medio,0.4178222397313202,medio,False,0,,,2020-06-11
+2020-06-11 09:15:00,medio,0.05455092454985273,medio,False,0,,,2020-06-11
+2020-06-11 09:30:00,medio,0.08277629749801531,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-11
+2020-06-11 09:45:00,bajo,0.6100318992585202,bajo,True,0,,,2020-06-11
+2020-06-11 10:00:00,bajo,0.49855577935602685,medio,True,0,,,2020-06-11
+2020-06-11 10:15:00,medio,0.24863118405906198,medio,False,0,,,2020-06-11
+2020-06-11 10:30:00,medio,0.16665556492076367,medio,False,0,,,2020-06-11
+2020-06-11 10:45:00,medio,0.1320785499123557,medio,False,0,,,2020-06-11
+2020-06-11 11:00:00,medio,0.08461715310193557,medio,False,0,,,2020-06-11
+2020-06-11 11:15:00,medio,0.06315752876969782,medio,False,0,,,2020-06-11
+2020-06-11 11:30:00,medio,0.053539922219210126,medio,False,0,,,2020-06-11
+2020-06-11 11:45:00,medio,0.053966163641583006,medio,False,0,,,2020-06-11
+2020-06-11 12:00:00,alto,0.02900851871032838,bajo,False,22,desvío: se esperaba alto y fue bajo | 22 inversores en cero con sol,"inversores en cero (inv01, inv02, inv03, inv04, inv05, inv06, inv07, inv08, inv09, inv10, inv11, inv12, inv13, inv14, inv15, inv16, inv17, inv18, inv19, inv20, inv21, inv22): revisar MPPT, comunicación o protecciones",2020-06-11
+2020-06-11 12:15:00,medio,0.2664694910314434,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-11
+2020-06-11 12:30:00,medio,0.34412650138135953,medio,False,0,,,2020-06-11
+2020-06-11 12:45:00,medio,0.3551137049885732,medio,False,0,,,2020-06-11
+2020-06-11 13:00:00,medio,0.15170924983527675,medio,False,0,,,2020-06-11
+2020-06-11 13:15:00,medio,0.3301398152465103,medio,False,0,,,2020-06-11
+2020-06-11 13:30:00,medio,0.35470737520903567,medio,False,0,,,2020-06-11
+2020-06-11 13:45:00,medio,0.2310542413104332,medio,False,0,,,2020-06-11
+2020-06-11 14:00:00,medio,0.09933100240716239,medio,False,0,,,2020-06-11
+2020-06-11 14:15:00,medio,0.13588768216965208,medio,False,0,,,2020-06-11
+2020-06-11 14:30:00,medio,0.2798645040554105,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-11
+2020-06-11 14:45:00,bajo,0.7044684321505514,bajo,True,0,,,2020-06-11
+2020-06-11 15:00:00,bajo,0.8679862844064589,bajo,True,0,,,2020-06-11
+2020-06-11 15:15:00,bajo,0.5659551756705948,medio,True,0,,,2020-06-11
+2020-06-11 15:30:00,medio,0.2081352969791164,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-11
+2020-06-11 15:45:00,bajo,0.6232720672632546,medio,True,0,,,2020-06-11
+2020-06-11 16:00:00,medio,0.3787243303094297,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-11
+2020-06-11 16:15:00,bajo,0.802698801126466,bajo,True,0,,,2020-06-11
+2020-06-11 16:30:00,bajo,0.9084971961026724,bajo,True,0,,,2020-06-11
+2020-06-11 16:45:00,bajo,0.9615190710373636,bajo,True,0,,,2020-06-11
+2020-06-11 17:00:00,bajo,0.9785149618004959,bajo,True,0,,,2020-06-11
+2020-06-11 17:15:00,bajo,0.9916642291997634,bajo,True,0,,,2020-06-11
+2020-06-11 17:30:00,bajo,0.9930716366071708,bajo,True,0,,,2020-06-11
+2020-06-11 17:45:00,bajo,0.9961338059193402,bajo,True,0,,,2020-06-11
+2020-06-11 18:00:00,bajo,0.9966629064484406,bajo,True,0,,,2020-06-11
+2020-06-11 18:15:00,bajo,0.997059731845266,bajo,True,0,,,2020-06-11
+2020-06-12 06:30:00,bajo,1.0,bajo,True,0,,,2020-06-12
+2020-06-12 06:45:00,bajo,1.0,bajo,True,0,,,2020-06-12
+2020-06-12 07:00:00,bajo,1.0,bajo,True,0,,,2020-06-12
+2020-06-12 07:15:00,bajo,1.0,bajo,True,0,,,2020-06-12
+2020-06-12 07:30:00,bajo,0.9954191919191919,bajo,True,0,,,2020-06-12
+2020-06-12 07:45:00,bajo,0.9840787376932192,bajo,True,0,,,2020-06-12
+2020-06-12 08:00:00,bajo,0.9072505066628158,bajo,True,0,,,2020-06-12
+2020-06-12 08:15:00,bajo,0.8164054454998028,bajo,True,0,,,2020-06-12
+2020-06-12 08:30:00,bajo,0.8348404086847659,bajo,True,0,,,2020-06-12
+2020-06-12 08:45:00,bajo,0.7373770010834277,bajo,True,0,,,2020-06-12
+2020-06-12 09:00:00,bajo,0.8123546188028647,medio,True,0,,,2020-06-12
+2020-06-12 09:15:00,medio,0.19098129143446219,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-12
+2020-06-12 09:30:00,medio,0.28739678840901717,medio,False,0,,,2020-06-12
+2020-06-12 09:45:00,medio,0.05829889646190904,medio,False,0,,,2020-06-12
+2020-06-12 10:00:00,medio,0.17621646670265317,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-12
+2020-06-12 10:15:00,medio,0.41919374103340856,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-12
+2020-06-12 10:30:00,bajo,0.7775131121985872,bajo,True,0,,,2020-06-12
+2020-06-12 10:45:00,bajo,0.8518086240769166,bajo,True,0,,,2020-06-12
+2020-06-12 11:00:00,bajo,0.6928510932616271,medio,True,0,,,2020-06-12
+2020-06-12 11:15:00,medio,0.17034950217212216,alto,False,0,,,2020-06-12
+2020-06-12 11:30:00,alto,0.02085945462286926,medio,False,0,,,2020-06-12
+2020-06-12 11:45:00,medio,0.05395524340475882,medio,False,0,,,2020-06-12
+2020-06-12 12:00:00,medio,0.08639939302519445,medio,False,0,,,2020-06-12
+2020-06-12 12:15:00,medio,0.12842099584580632,medio,False,0,,,2020-06-12
+2020-06-12 12:30:00,medio,0.12592237973741666,medio,False,0,,,2020-06-12
+2020-06-12 12:45:00,medio,0.08157565290763642,medio,False,0,,,2020-06-12
+2020-06-12 13:00:00,medio,0.09154100685457552,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-12
+2020-06-12 13:15:00,medio,0.23934676673462643,medio,False,0,,,2020-06-12
+2020-06-12 13:30:00,medio,0.09636014088578496,medio,False,5,5 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv16",2020-06-12
+2020-06-12 13:45:00,medio,0.05884328700588194,medio,False,0,,,2020-06-12
+2020-06-12 14:00:00,medio,0.09816033421314517,alto,False,0,,,2020-06-12
+2020-06-12 14:15:00,medio,0.038081595620363465,medio,False,0,,,2020-06-12
+2020-06-12 14:30:00,medio,0.08162522665770686,medio,False,0,,,2020-06-12
+2020-06-12 14:45:00,medio,0.18385092584256493,medio,False,0,,,2020-06-12
+2020-06-12 15:00:00,medio,0.2188329255693462,medio,False,0,,,2020-06-12
+2020-06-12 15:15:00,medio,0.08259524455961544,medio,False,0,,,2020-06-12
+2020-06-12 15:30:00,medio,0.05112469752646894,medio,False,0,,,2020-06-12
+2020-06-12 15:45:00,medio,0.052916017764353625,medio,False,0,,,2020-06-12
+2020-06-12 16:00:00,medio,0.16476160746339566,medio,False,0,,,2020-06-12
+2020-06-12 16:15:00,bajo,0.548191984922004,bajo,True,0,,,2020-06-12
+2020-06-12 16:30:00,bajo,0.885195951182668,bajo,True,0,,,2020-06-12
+2020-06-12 16:45:00,bajo,0.9590721916971916,bajo,True,0,,,2020-06-12
+2020-06-12 17:00:00,bajo,0.9418009629259629,bajo,True,0,,,2020-06-12
+2020-06-12 17:15:00,bajo,0.9587941075245842,bajo,True,0,,,2020-06-12
+2020-06-12 17:30:00,bajo,0.9596806550728962,bajo,True,0,,,2020-06-12
+2020-06-12 17:45:00,bajo,0.9756232125154539,bajo,True,0,,,2020-06-12
+2020-06-12 18:00:00,bajo,0.9902181962354376,bajo,True,0,,,2020-06-12
+2020-06-12 18:15:00,bajo,0.9960631938304352,bajo,True,0,,,2020-06-12
+2020-06-12 18:30:00,bajo,0.9922825670498084,bajo,True,0,,,2020-06-12
+2020-06-13 06:15:00,bajo,0.9946124338624336,bajo,True,0,,,2020-06-13
+2020-06-13 06:30:00,bajo,0.9966031746031744,bajo,True,0,,,2020-06-13
+2020-06-13 06:45:00,bajo,0.9959365079365078,bajo,True,0,,,2020-06-13
+2020-06-13 07:00:00,bajo,0.9945661375661374,bajo,True,0,,,2020-06-13
+2020-06-13 07:15:00,bajo,0.9923439153439152,bajo,True,0,,,2020-06-13
+2020-06-13 07:30:00,bajo,0.9818351526640998,bajo,True,0,,,2020-06-13
+2020-06-13 07:45:00,bajo,0.6587291349386036,bajo,True,0,,,2020-06-13
+2020-06-13 08:00:00,bajo,0.7174232471050791,bajo,True,0,,,2020-06-13
+2020-06-13 08:15:00,medio,0.25145711152424105,medio,False,0,,,2020-06-13
+2020-06-13 08:30:00,medio,0.07250615747525814,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-13
+2020-06-13 08:45:00,medio,0.31372901692181476,medio,False,0,,,2020-06-13
+2020-06-13 09:00:00,medio,0.06968727881880339,medio,False,0,,,2020-06-13
+2020-06-13 09:15:00,medio,0.03314443696186427,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-13
+2020-06-13 09:30:00,medio,0.3423279400753988,medio,False,0,,,2020-06-13
+2020-06-13 09:45:00,medio,0.11441640612038645,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-13
+2020-06-13 10:00:00,medio,0.20238753448165103,medio,False,0,,,2020-06-13
+2020-06-13 10:15:00,medio,0.12300332587616986,medio,False,0,,,2020-06-13
+2020-06-13 10:30:00,medio,0.09918257941367269,bajo,False,8,desvío: se esperaba medio y fue bajo | 8 inversores en cero con sol,"inversores en cero (inv01, inv03, inv04, inv11, inv12, inv14, inv17, inv20): revisar MPPT, comunicación o protecciones",2020-06-13
+2020-06-13 10:45:00,medio,0.2187051312305374,bajo,False,22,desvío: se esperaba medio y fue bajo | 22 inversores en cero con sol,"inversores en cero (inv01, inv02, inv03, inv04, inv05, inv06, inv07, inv08, inv09, inv10, inv11, inv12, inv13, inv14, inv15, inv16, inv17, inv18, inv19, inv20, inv21, inv22): revisar MPPT, comunicación o protecciones",2020-06-13
+2020-06-13 11:00:00,medio,0.28452353354320964,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-13
+2020-06-13 11:15:00,medio,0.2538223945407613,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv15, inv16, inv21",2020-06-13
+2020-06-13 11:30:00,medio,0.10386018352668876,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv15, inv16, inv21",2020-06-13
+2020-06-13 11:45:00,medio,0.21591426984240722,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
+2020-06-13 12:00:00,medio,0.13989917832374502,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
+2020-06-13 12:15:00,medio,0.07533571196253752,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
+2020-06-13 12:30:00,medio,0.04427220373279167,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
+2020-06-13 12:45:00,medio,0.03532229673316597,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
+2020-06-13 13:00:00,medio,0.14723226230121775,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
+2020-06-13 13:15:00,medio,0.06807429811628408,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv09, inv11, inv13, inv16, inv21",2020-06-13
+2020-06-13 13:30:00,medio,0.09963849505770532,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv11, inv13, inv16, inv21",2020-06-13
+2020-06-13 13:45:00,medio,0.0859938454151014,bajo,False,8,desvío: se esperaba medio y fue bajo | 8 inversores en cero con sol,"inversores en cero (inv03, inv05, inv07, inv08, inv11, inv13, inv16, inv21): revisar MPPT, comunicación o protecciones",2020-06-13
+2020-06-13 14:00:00,bajo,0.5805080127836638,medio,True,6,6 inversores en cero con sol,"revisar los inversores en cero: inv03, inv07, inv08, inv11, inv13, inv16",2020-06-13
+2020-06-13 14:15:00,medio,0.11133194101250335,medio,False,4,4 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv21",2020-06-13
+2020-06-13 14:30:00,medio,0.13292582744555562,alto,False,5,5 inversores en cero con sol,"revisar los inversores en cero: inv03, inv05, inv07, inv08, inv21",2020-06-13
+2020-06-13 14:45:00,alto,0.039006881069817985,bajo,False,6,desvío: se esperaba alto y fue bajo | 6 inversores en cero con sol,"inversores en cero (inv03, inv05, inv07, inv08, inv16, inv21): revisar MPPT, comunicación o protecciones",2020-06-13
+2020-06-13 15:00:00,medio,0.2810029108407338,medio,False,0,,,2020-06-13
+2020-06-13 15:15:00,medio,0.17858603764530503,medio,False,0,,,2020-06-13
+2020-06-13 15:30:00,medio,0.08950350483999872,medio,False,0,,,2020-06-13
+2020-06-13 15:45:00,medio,0.09098449479850355,medio,False,0,,,2020-06-13
+2020-06-13 16:00:00,medio,0.1230647379612549,medio,False,0,,,2020-06-13
+2020-06-13 16:15:00,bajo,0.6206871805204315,medio,True,0,,,2020-06-13
+2020-06-13 16:30:00,medio,0.29607204892868166,medio,False,0,,,2020-06-13
+2020-06-13 16:45:00,bajo,0.8119032839757306,medio,True,0,,,2020-06-13
+2020-06-13 17:00:00,bajo,0.6740284336289621,medio,True,0,,,2020-06-13
+2020-06-13 17:15:00,bajo,0.634218661042874,bajo,True,0,,,2020-06-13
+2020-06-13 17:30:00,bajo,0.9434724461268581,bajo,True,0,,,2020-06-13
+2020-06-13 17:45:00,bajo,0.9875289443671798,bajo,True,0,,,2020-06-13
+2020-06-13 18:00:00,bajo,0.9925811965811966,bajo,True,0,,,2020-06-13
+2020-06-13 18:15:00,bajo,0.9962023879696293,bajo,True,0,,,2020-06-13
+2020-06-14 06:15:00,bajo,0.9980092592592592,bajo,True,0,,,2020-06-14
+2020-06-14 06:30:00,bajo,1.0,bajo,True,0,,,2020-06-14
+2020-06-14 06:45:00,bajo,1.0,bajo,True,0,,,2020-06-14
+2020-06-14 07:00:00,bajo,1.0,bajo,True,0,,,2020-06-14
+2020-06-14 07:15:00,bajo,0.9884561960523847,bajo,True,0,,,2020-06-14
+2020-06-14 07:30:00,bajo,0.802889670425205,bajo,True,0,,,2020-06-14
+2020-06-14 07:45:00,medio,0.10001495779019406,medio,False,0,,,2020-06-14
+2020-06-14 08:00:00,medio,0.023844669104282335,medio,False,0,,,2020-06-14
+2020-06-14 08:15:00,medio,0.10337999577857547,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-14
+2020-06-14 08:30:00,medio,0.4509335783603554,medio,False,0,,,2020-06-14
+2020-06-14 08:45:00,medio,0.16270982097570938,medio,False,0,,,2020-06-14
+2020-06-14 09:00:00,medio,0.21140933581826082,medio,False,0,,,2020-06-14
+2020-06-14 09:15:00,medio,0.04083386638585104,medio,False,0,,,2020-06-14
+2020-06-14 09:30:00,medio,0.09570981958542932,medio,False,4,4 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv11, inv12",2020-06-14
+2020-06-14 09:45:00,medio,0.08301381132214829,medio,False,4,4 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv11, inv12",2020-06-14
+2020-06-14 10:00:00,medio,0.14108690437163016,medio,False,4,4 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv11, inv12",2020-06-14
+2020-06-14 10:15:00,medio,0.12678917593885172,medio,False,5,5 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12",2020-06-14
+2020-06-14 10:30:00,medio,0.07230582813325884,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
+2020-06-14 10:45:00,medio,0.054552880031256676,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
+2020-06-14 11:00:00,medio,0.21245253692298788,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
+2020-06-14 11:15:00,medio,0.06822693331725524,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
+2020-06-14 11:30:00,medio,0.04938709892254169,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
+2020-06-14 11:45:00,medio,0.07996777072063235,medio,False,7,7 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv13, inv16, inv17",2020-06-14
+2020-06-14 12:00:00,medio,0.10381614263783118,medio,False,7,7 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv13, inv16, inv17",2020-06-14
+2020-06-14 12:15:00,medio,0.10373452947050074,alto,False,7,7 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv13, inv16, inv17",2020-06-14
+2020-06-14 12:30:00,alto,0.012252416412368395,alto,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
+2020-06-14 12:45:00,alto,0.011241799663268354,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
+2020-06-14 13:00:00,medio,0.039465040592871314,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv09, inv11, inv12, inv13, inv15, inv16, inv17",2020-06-14
+2020-06-14 13:15:00,medio,0.04069868432723402,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv09, inv11, inv12, inv13, inv15, inv16, inv17",2020-06-14
+2020-06-14 13:30:00,medio,0.052167898264558164,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv09, inv11, inv12, inv13, inv15, inv16, inv17",2020-06-14
+2020-06-14 13:45:00,medio,0.05586875910271752,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv09, inv11, inv12, inv13, inv15, inv16, inv17",2020-06-14
+2020-06-14 14:00:00,medio,0.062116325818981744,medio,False,8,8 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv17",2020-06-14
+2020-06-14 14:15:00,medio,0.060740906470383965,medio,False,4,4 inversores en cero con sol,"revisar los inversores en cero: inv01, inv08, inv11, inv16",2020-06-14
+2020-06-14 14:30:00,medio,0.2800562680529984,medio,False,0,,,2020-06-14
+2020-06-14 14:45:00,medio,0.2883570375639811,alto,False,0,,,2020-06-14
+2020-06-14 15:00:00,alto,0.03850695019018612,medio,False,1,1 inversores en cero con sol,revisar los inversores en cero: inv11,2020-06-14
+2020-06-14 15:15:00,medio,0.22201106511523117,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-14
+2020-06-14 15:30:00,bajo,0.8187314245634956,medio,True,0,,,2020-06-14
+2020-06-14 15:45:00,medio,0.23585917231634962,alto,False,0,,,2020-06-14
+2020-06-14 16:00:00,medio,0.04107999340181018,medio,False,0,,,2020-06-14
+2020-06-14 16:15:00,medio,0.4343378729318771,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-14
+2020-06-14 16:30:00,bajo,0.8916971482500747,medio,True,0,,,2020-06-14
+2020-06-14 16:45:00,bajo,0.5734200856253692,bajo,True,0,,,2020-06-14
+2020-06-14 17:00:00,bajo,0.9425987900987902,bajo,True,0,,,2020-06-14
+2020-06-14 17:15:00,bajo,0.9785602515113165,bajo,True,0,,,2020-06-14
+2020-06-14 17:30:00,bajo,0.980522564581388,bajo,True,0,,,2020-06-14
+2020-06-14 17:45:00,bajo,0.9799660409832824,bajo,True,0,,,2020-06-14
+2020-06-14 18:00:00,bajo,0.9824407792080205,bajo,True,0,,,2020-06-14
+2020-06-14 18:15:00,bajo,0.9839632659805073,bajo,True,0,,,2020-06-14
+2020-06-15 06:15:00,bajo,0.9980092592592592,bajo,True,0,,,2020-06-15
+2020-06-15 06:30:00,bajo,1.0,bajo,True,0,,,2020-06-15
+2020-06-15 06:45:00,bajo,1.0,bajo,True,0,,,2020-06-15
+2020-06-15 07:00:00,bajo,1.0,bajo,True,0,,,2020-06-15
+2020-06-15 07:15:00,bajo,0.9972291482463896,bajo,True,0,,,2020-06-15
+2020-06-15 07:30:00,bajo,0.9721413695058512,bajo,True,0,,,2020-06-15
+2020-06-15 07:45:00,bajo,0.9092515808459384,medio,True,0,,,2020-06-15
+2020-06-15 08:00:00,medio,0.151123155374608,medio,False,0,,,2020-06-15
+2020-06-15 08:15:00,medio,0.03538799103433169,medio,False,0,,,2020-06-15
+2020-06-15 08:30:00,medio,0.020008533939530865,medio,False,3,3 inversores en cero con sol,"revisar los inversores en cero: inv04, inv11, inv12",2020-06-15
+2020-06-15 08:45:00,medio,0.0374866083623118,medio,False,3,3 inversores en cero con sol,"revisar los inversores en cero: inv04, inv11, inv12",2020-06-15
+2020-06-15 09:00:00,alto,0.03080944703435972,medio,False,6,6 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv11, inv12, inv16",2020-06-15
+2020-06-15 09:15:00,medio,0.1333832055136585,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17",2020-06-15
+2020-06-15 09:30:00,medio,0.19607831191581726,bajo,False,5,desvío: se esperaba medio y fue bajo | 5 inversores en cero con sol,"inversores en cero (inv01, inv04, inv11, inv12, inv13): revisar MPPT, comunicación o protecciones",2020-06-15
+2020-06-15 09:45:00,medio,0.33027383291644397,medio,False,5,5 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv11, inv12, inv13",2020-06-15
+2020-06-15 10:00:00,medio,0.2006934534050537,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17",2020-06-15
+2020-06-15 10:15:00,medio,0.08175428892649854,medio,False,9,9 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17",2020-06-15
+2020-06-15 10:30:00,medio,0.11662067166864927,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17, inv19",2020-06-15
+2020-06-15 10:45:00,medio,0.12548032416642244,bajo,False,7,desvío: se esperaba medio y fue bajo | 7 inversores en cero con sol,"inversores en cero (inv01, inv08, inv10, inv11, inv13, inv16, inv17): revisar MPPT, comunicación o protecciones",2020-06-15
+2020-06-15 11:00:00,medio,0.2894979859774348,bajo,False,7,desvío: se esperaba medio y fue bajo | 7 inversores en cero con sol,"inversores en cero (inv01, inv08, inv10, inv11, inv13, inv16, inv17): revisar MPPT, comunicación o protecciones",2020-06-15
+2020-06-15 11:15:00,medio,0.37443803137680803,medio,False,7,7 inversores en cero con sol,"revisar los inversores en cero: inv01, inv08, inv10, inv11, inv13, inv16, inv17",2020-06-15
+2020-06-15 11:30:00,medio,0.12671189297442056,bajo,False,8,desvío: se esperaba medio y fue bajo | 8 inversores en cero con sol,"inversores en cero (inv04, inv08, inv10, inv12, inv13, inv16, inv17, inv19): revisar MPPT, comunicación o protecciones",2020-06-15
+2020-06-15 11:45:00,medio,0.2991203134108151,bajo,False,8,desvío: se esperaba medio y fue bajo | 8 inversores en cero con sol,"inversores en cero (inv01, inv04, inv08, inv11, inv12, inv13, inv16, inv19): revisar MPPT, comunicación o protecciones",2020-06-15
+2020-06-15 12:00:00,medio,0.37418836343849105,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17, inv19",2020-06-15
+2020-06-15 12:15:00,medio,0.23573732528083952,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17, inv19",2020-06-15
+2020-06-15 12:30:00,medio,0.10366432353552271,medio,False,10,10 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv08, inv10, inv11, inv12, inv13, inv16, inv17, inv19",2020-06-15
+2020-06-15 12:45:00,medio,0.26748521696476263,bajo,False,8,desvío: se esperaba medio y fue bajo | 8 inversores en cero con sol,"inversores en cero (inv01, inv08, inv10, inv11, inv13, inv16, inv17, inv19): revisar MPPT, comunicación o protecciones",2020-06-15
+2020-06-15 13:00:00,medio,0.38036993683251474,bajo,False,6,desvío: se esperaba medio y fue bajo | 6 inversores en cero con sol,"inversores en cero (inv08, inv10, inv13, inv16, inv17, inv19): revisar MPPT, comunicación o protecciones",2020-06-15
+2020-06-15 13:15:00,medio,0.3380465557597861,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-15
+2020-06-15 13:30:00,bajo,0.7032342876997526,bajo,True,0,,,2020-06-15
+2020-06-15 13:45:00,bajo,0.5151958459771644,medio,True,0,,,2020-06-15
+2020-06-15 14:00:00,medio,0.1687717611670577,medio,False,2,2 inversores en cero con sol,"revisar los inversores en cero: inv13, inv16",2020-06-15
+2020-06-15 14:15:00,medio,0.07854766592997829,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-15
+2020-06-15 14:30:00,medio,0.24814789669840934,medio,False,0,,,2020-06-15
+2020-06-15 14:45:00,medio,0.15032894664202776,medio,False,2,2 inversores en cero con sol,"revisar los inversores en cero: inv04, inv12",2020-06-15
+2020-06-15 15:00:00,medio,0.21016725841361972,medio,False,0,,,2020-06-15
+2020-06-15 15:15:00,medio,0.4224652731680373,medio,False,0,,,2020-06-15
+2020-06-15 15:30:00,medio,0.14229286995487606,medio,False,0,,,2020-06-15
+2020-06-15 15:45:00,medio,0.23228497150524385,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-15
+2020-06-15 16:00:00,bajo,0.8411428740210379,bajo,True,0,,,2020-06-15
+2020-06-15 16:15:00,bajo,0.8370650169468224,bajo,True,0,,,2020-06-15
+2020-06-15 16:30:00,bajo,0.5253407865652714,bajo,True,0,,,2020-06-15
+2020-06-15 16:45:00,bajo,0.5368531246350642,bajo,True,0,,,2020-06-15
+2020-06-15 17:00:00,bajo,0.599083091615986,bajo,True,0,,,2020-06-15
+2020-06-15 17:15:00,bajo,0.946158565562977,bajo,True,0,,,2020-06-15
+2020-06-15 17:30:00,bajo,0.9881431694104108,bajo,True,0,,,2020-06-15
+2020-06-15 17:45:00,bajo,0.9910446753119166,bajo,True,0,,,2020-06-15
+2020-06-15 18:00:00,bajo,0.9850201442873856,bajo,True,0,,,2020-06-15
+2020-06-15 18:15:00,bajo,0.9946941462113877,bajo,True,0,,,2020-06-15
+2020-06-15 18:30:00,bajo,0.9958297766153108,bajo,True,0,,,2020-06-15
+2020-06-16 06:15:00,bajo,0.9980092592592592,bajo,True,0,,,2020-06-16
+2020-06-16 06:30:00,bajo,1.0,bajo,True,0,,,2020-06-16
+2020-06-16 06:45:00,bajo,1.0,bajo,True,0,,,2020-06-16
+2020-06-16 07:00:00,bajo,1.0,bajo,True,0,,,2020-06-16
+2020-06-16 07:15:00,bajo,0.9999770114942529,bajo,True,0,,,2020-06-16
+2020-06-16 07:30:00,bajo,0.9877959026420913,bajo,True,0,,,2020-06-16
+2020-06-16 07:45:00,bajo,0.957133895698842,bajo,True,0,,,2020-06-16
+2020-06-16 08:00:00,bajo,0.8314575289433672,bajo,True,0,,,2020-06-16
+2020-06-16 08:15:00,medio,0.26071276769034657,medio,False,0,,,2020-06-16
+2020-06-16 08:30:00,medio,0.0940590123041176,medio,False,0,,,2020-06-16
+2020-06-16 08:45:00,medio,0.11848361892604423,medio,False,0,,,2020-06-16
+2020-06-16 09:00:00,medio,0.12504736637075847,medio,False,0,,,2020-06-16
+2020-06-16 09:15:00,medio,0.07925736663165696,medio,False,0,,,2020-06-16
+2020-06-16 09:30:00,medio,0.3344715427763039,medio,False,0,,,2020-06-16
+2020-06-16 09:45:00,medio,0.146886538647682,medio,False,0,,,2020-06-16
+2020-06-16 10:00:00,medio,0.055707435928753754,medio,False,0,,,2020-06-16
+2020-06-16 10:15:00,medio,0.045031896727784675,alto,False,0,,,2020-06-16
+2020-06-16 10:30:00,alto,0.013045653228636813,medio,False,0,,,2020-06-16
+2020-06-16 10:45:00,medio,0.07638274888364327,medio,False,0,,,2020-06-16
+2020-06-16 11:00:00,medio,0.060593878451606485,medio,False,0,,,2020-06-16
+2020-06-16 11:15:00,medio,0.11546902013716974,alto,False,0,,,2020-06-16
+2020-06-16 11:30:00,alto,0.04764121947596111,alto,False,0,,,2020-06-16
+2020-06-16 11:45:00,alto,0.01991186368969381,medio,False,4,4 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv11, inv12",2020-06-16
+2020-06-16 12:00:00,medio,0.05233977868813569,medio,False,3,3 inversores en cero con sol,"revisar los inversores en cero: inv01, inv04, inv11",2020-06-16
+2020-06-16 12:15:00,medio,0.07222272035495313,medio,False,0,,,2020-06-16
+2020-06-16 12:30:00,medio,0.17834331783617774,alto,False,0,,,2020-06-16
+2020-06-16 12:45:00,medio,0.05740979386564727,alto,False,0,,,2020-06-16
+2020-06-16 13:00:00,alto,0.03976331078306673,alto,False,0,,,2020-06-16
+2020-06-16 13:15:00,alto,0.028709951384732858,alto,False,0,,,2020-06-16
+2020-06-16 13:30:00,alto,0.03471517448389487,medio,False,0,,,2020-06-16
+2020-06-16 13:45:00,medio,0.2522043567950263,medio,False,0,,,2020-06-16
+2020-06-16 14:00:00,medio,0.13041938035601752,medio,False,0,,,2020-06-16
+2020-06-16 14:15:00,medio,0.10468760335987468,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-16
+2020-06-16 14:30:00,medio,0.34543673079438764,bajo,False,22,desvío: se esperaba medio y fue bajo | 22 inversores en cero con sol,"inversores en cero (inv01, inv02, inv03, inv04, inv05, inv06, inv07, inv08, inv09, inv10, inv11, inv12, inv13, inv14, inv15, inv16, inv17, inv18, inv19, inv20, inv21, inv22): revisar MPPT, comunicación o protecciones",2020-06-16
+2020-06-16 14:45:00,medio,0.3299066955823824,medio,False,0,,,2020-06-16
+2020-06-16 15:00:00,medio,0.1975941280725876,medio,False,0,,,2020-06-16
+2020-06-16 15:15:00,medio,0.19576860501546606,medio,False,0,,,2020-06-16
+2020-06-16 15:30:00,medio,0.2029973850208156,medio,False,0,,,2020-06-16
+2020-06-16 15:45:00,medio,0.14205268601942672,medio,False,0,,,2020-06-16
+2020-06-16 16:00:00,medio,0.46061797230618085,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-16
+2020-06-16 16:15:00,bajo,0.8583354030756363,bajo,True,0,,,2020-06-16
+2020-06-16 16:30:00,bajo,0.67135324664171,bajo,True,0,,,2020-06-16
+2020-06-16 16:45:00,bajo,0.9342154500770986,bajo,True,0,,,2020-06-16
+2020-06-16 17:00:00,bajo,0.9887705096627512,bajo,True,0,,,2020-06-16
+2020-06-16 17:15:00,bajo,0.9900717362139776,bajo,True,0,,,2020-06-16
+2020-06-16 17:30:00,bajo,0.997524630541872,bajo,True,0,,,2020-06-16
+2020-06-16 17:45:00,bajo,0.9963545043717456,bajo,True,0,,,2020-06-16
+2020-06-16 18:00:00,bajo,0.9923288633461048,bajo,True,0,,,2020-06-16
+2020-06-17 06:30:00,bajo,0.9966031746031744,bajo,True,0,,,2020-06-17
+2020-06-17 06:45:00,bajo,0.9966031746031744,bajo,True,0,,,2020-06-17
+2020-06-17 07:00:00,bajo,0.9949365079365077,bajo,True,0,,,2020-06-17
+2020-06-17 07:15:00,bajo,0.9932698412698411,bajo,True,0,,,2020-06-17
+2020-06-17 07:30:00,bajo,0.9888795093795092,bajo,True,0,,,2020-06-17
+2020-06-17 07:45:00,bajo,0.9860529100529098,bajo,True,0,,,2020-06-17
+2020-06-17 08:00:00,bajo,0.9775167980167981,bajo,True,0,,,2020-06-17
+2020-06-17 08:15:00,bajo,0.9603638340217285,bajo,True,0,,,2020-06-17
+2020-06-17 08:30:00,bajo,0.8982737369367664,bajo,True,0,,,2020-06-17
+2020-06-17 08:45:00,bajo,0.891747652598976,bajo,True,0,,,2020-06-17
+2020-06-17 09:00:00,bajo,0.8401175749230725,bajo,True,0,,,2020-06-17
+2020-06-17 09:15:00,bajo,0.8546635889158412,bajo,True,0,,,2020-06-17
+2020-06-17 09:30:00,bajo,0.8814645064079351,bajo,True,0,,,2020-06-17
+2020-06-17 09:45:00,bajo,0.4971318779488529,medio,True,0,,,2020-06-17
+2020-06-17 10:00:00,medio,0.10851687682407558,medio,False,0,,,2020-06-17
+2020-06-17 10:15:00,medio,0.05347503875885588,medio,False,0,,,2020-06-17
+2020-06-17 10:30:00,medio,0.1279549763472218,medio,False,0,,,2020-06-17
+2020-06-17 10:45:00,medio,0.2770650413535611,medio,False,0,,,2020-06-17
+2020-06-17 11:00:00,medio,0.1841368121634721,medio,False,0,,,2020-06-17
+2020-06-17 11:15:00,medio,0.15146215703988092,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-17
+2020-06-17 11:30:00,bajo,0.5396114048999413,medio,True,0,,,2020-06-17
+2020-06-17 11:45:00,medio,0.137732964805624,alto,False,0,,,2020-06-17
+2020-06-17 12:00:00,medio,0.03386180875855662,medio,False,0,,,2020-06-17
+2020-06-17 12:15:00,medio,0.12762278158458532,alto,False,0,,,2020-06-17
+2020-06-17 12:30:00,alto,0.028100122414878782,alto,False,0,,,2020-06-17
+2020-06-17 12:45:00,medio,0.09355772088594935,alto,False,0,,,2020-06-17
+2020-06-17 13:00:00,alto,0.016641433902284862,alto,False,0,,,2020-06-17
+2020-06-17 13:15:00,alto,0.05864724340273175,medio,False,0,,,2020-06-17
+2020-06-17 13:30:00,medio,0.10637569493172658,medio,False,0,,,2020-06-17
+2020-06-17 13:45:00,medio,0.09907773187924031,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-17
+2020-06-17 14:00:00,medio,0.271438950079118,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-17
+2020-06-17 14:15:00,medio,0.3102916161659927,medio,False,0,,,2020-06-17
+2020-06-17 14:30:00,medio,0.10847011285428945,medio,False,0,,,2020-06-17
+2020-06-17 14:45:00,medio,0.311652843966239,medio,False,0,,,2020-06-17
+2020-06-17 15:00:00,medio,0.23545446109401935,medio,False,0,,,2020-06-17
+2020-06-17 15:15:00,medio,0.15911676126551946,medio,False,0,,,2020-06-17
+2020-06-17 15:30:00,medio,0.07802264806459688,bajo,False,0,desvío: se esperaba medio y fue bajo,"sin inversores en cero: revisar suciedad, sombras, strings o robo",2020-06-17
+2020-06-17 15:45:00,bajo,0.5108499976419277,bajo,True,0,,,2020-06-17
+2020-06-17 16:00:00,bajo,0.6747704904588184,bajo,True,0,,,2020-06-17
+2020-06-17 16:15:00,bajo,0.8559532536819158,bajo,True,0,,,2020-06-17
+2020-06-17 16:30:00,bajo,0.8855795999601781,bajo,True,0,,,2020-06-17
+2020-06-17 16:45:00,bajo,0.9108301428400313,bajo,True,0,,,2020-06-17
+2020-06-17 17:00:00,bajo,0.9489545581850348,bajo,True,0,,,2020-06-17
+2020-06-17 17:15:00,bajo,0.9897749542921958,bajo,True,0,,,2020-06-17
+2020-06-17 17:30:00,bajo,0.9906159003831417,bajo,True,0,,,2020-06-17
+2020-06-17 17:45:00,bajo,0.9904492337164751,bajo,True,0,,,2020-06-17
+2020-06-17 18:00:00,bajo,0.9975378580550995,bajo,True,0,,,2020-06-17
+2020-06-17 18:15:00,bajo,0.9937383032738376,bajo,True,0,,,2020-06-17

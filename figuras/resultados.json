@@ -63,28 +63,28 @@
  "cm": [
   [
    127,
-   37,
-   1
+   36,
+   2
   ],
   [
-   14,
-   130,
-   12
+   15,
+   133,
+   8
   ],
   [
    0,
-   11,
-   8
+   13,
+   6
   ]
  ],
- "nsobre": 50,
- "invsobre": 2.3,
- "invbajook": 0.3464566929133858,
- "irrAltoOk": 0.56,
- "pAltoOk": 16818.02,
- "irrAltoMed": 0.41,
- "pAltoMed": 12381.49,
- "finaltipo": "combinacion",
+ "nsobre": 46,
+ "invsobre": 3.391304347826087,
+ "invbajook": 0.0,
+ "irrAltoOk": 0.59,
+ "pAltoOk": 17101.28,
+ "irrAltoMed": 0.42,
+ "pAltoMed": 12933.3,
+ "finaltipo": "individual",
  "busquedapaga": false,
  "wfdiaprueba": 27,
  "ndiassel": 13,
@@ -98,14 +98,14 @@
  "r1precbajo": 0.8874172185430463,
  "r1recallbajo": 0.8121212121212121,
  "r1falsosbajo": 17,
- "finalmodelo": "Combinación persistencia-climatología",
- "finalf1": 0.6695028244165265,
- "finalacc": 0.7794117647058824,
- "finalkappa": 0.6026056601421269,
- "finalprecbajo": 0.900709219858156,
+ "finalmodelo": "Random Forest (conjunto C)",
+ "finalf1": 0.6524003182985895,
+ "finalacc": 0.7823529411764706,
+ "finalkappa": 0.6036172291016795,
+ "finalprecbajo": 0.8943661971830986,
  "finalrecallbajo": 0.7696969696969697,
- "finalfalsosbajo": 14,
- "finalvecesbajo": 141,
+ "finalfalsosbajo": 15,
+ "finalvecesbajo": 142,
  "finaltau": 0.8250000000000004,
  "finalusaumbral": false,
  "wconv": 0.7304394087585427,
@@ -303,7 +303,7 @@
  "ndiaswf": 20,
  "psimcoincide": 100.0,
  "nsimulados": 340,
- "nventanas": 141,
+ "nventanas": 142,
  "nalertasdesvio": 38,
  "ninstceroscon": 64,
  "ensmodelos": [
@@ -318,7 +318,7 @@
   "SVM lineal calibrada",
   "LR + K-Means (k=6)"
  ],
- "percentilsel": 0.6053921568627451,
+ "percentilsel": 0.8950341005967605,
  "rhomitades": 0.00985836219573248,
  "elegidasdia": [
   [

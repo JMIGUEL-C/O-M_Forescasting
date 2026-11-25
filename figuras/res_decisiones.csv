@@ -15,7 +15,7 @@ N_BOOT,2000,4.2.1,bootstrap de días,supuesto del equipo
 RECALL_MIN_BAJO,0.7,4.2.4,razón de negocio (ventanas aprovechadas),supuesto del equipo
 TOL_EMPATE,0.01,4.2.4,diferencia indistinguible con pocos días,supuesto del equipo
 MODELO_INDIVIDUAL,"('Random Forest', 'C')",4.3.3,regla de selección sobre 51 ajustes,regla de 4.2.4
-MODELO_FINAL,"combinacion (mejor ensamble de R1: ['HGB (base)', 'RF (base)', 'LR + mezcla gaussiana', 'KNN'])",4.4.3,R1–R3 con los días 14–26 y selección anidada temporal,Cawley y Talbot [10]; REFORMS [16]; regla fijada antes de correr
+MODELO_FINAL,"individual: Random Forest, conjunto C (mejor ensamble de R1, solo referencia: ['HGB (base)', 'RF (base)', 'LR + mezcla gaussiana', 'KNN'])",4.4.3,R1–R3 con los días 14–26 y selección anidada temporal; R3 revisada el 24-nov: sin ventaja del ensamble se elige el mejor individual,Cawley y Talbot [10]; REFORMS [16]; R1–R2 fijadas antes de correr; R3 revisada por la retroalimentación del docente
 USAR_UMBRAL,False,4.4.4,comparación con y sin umbral,supuesto del equipo (decisión de negocio)
 CALIBRAR,False,4.4.4,comparación con y sin Platt,supuesto del equipo (no mejoró)
 TAU_MODO,oof,4.4.4,umbral elegido con predicciones fuera de muestra,supuesto del equipo

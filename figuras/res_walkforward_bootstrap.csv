@@ -1,29 +1,25 @@
 ﻿A,frente a B,métrica,diferencia (A − B),IC95 inferior,IC95 superior,el IC excluye 0
-Modelo final,Persistencia,precisión de bajo,0.11111111111111105,0.07352973816069093,0.14734080875863997,True
-Modelo final,Persistencia,recall de bajo,-0.03125,-0.048913043478260865,-0.013242854653189235,True
-Modelo final,Persistencia,F1 macro,0.01982719355600704,0.002685173285602419,0.04020681322281935,True
-Modelo final,Persistencia,kappa,0.06667789163141913,0.025779217486726982,0.11176664264329095,True
-Ensamble (sin umbral),Persistencia,precisión de bajo,0.06486486486486487,0.03474172689041325,0.09865059535138401,True
-Ensamble (sin umbral),Persistencia,recall de bajo,0.0,-0.02580645161290329,0.0239520958083832,False
-Ensamble (sin umbral),Persistencia,F1 macro,0.018476535285045892,-0.02661672105502444,0.06281695600816706,False
-Ensamble (sin umbral),Persistencia,kappa,0.0673747964500121,0.009703566992243088,0.10626003111732585,True
-Ensamble (sin umbral),Combinación persistencia-climatología,precisión de bajo,-0.04624624624624618,-0.07574955908289238,-0.009557541144681889,True
-Ensamble (sin umbral),Combinación persistencia-climatología,recall de bajo,0.03125,0.0,0.05747126436781613,False
-Ensamble (sin umbral),Combinación persistencia-climatología,F1 macro,-0.001350658270961147,-0.04173246642630994,0.04270797607703092,False
-Ensamble (sin umbral),Combinación persistencia-climatología,kappa,0.0006969048185929694,-0.04601887226401387,0.04780674325255019,False
-Ensamble + umbral para bajo,Persistencia,precisión de bajo,0.17142857142857137,0.12129848448328447,0.22995759147400469,True
-Ensamble + umbral para bajo,Persistencia,recall de bajo,-0.1625000000000001,-0.21839461064169896,-0.1124260355029586,True
-Ensamble + umbral para bajo,Persistencia,F1 macro,-0.0009001599366041946,-0.05000159829157461,0.03535277856646357,False
-Ensamble + umbral para bajo,Persistencia,kappa,0.021515451272156372,-0.05713658971602942,0.09177435605992149,False
-Ensamble + umbral para bajo,Combinación persistencia-climatología,precisión de bajo,0.060317460317460325,0.0311491489634903,0.09281537176274013,True
-Ensamble + umbral para bajo,Combinación persistencia-climatología,recall de bajo,-0.1312500000000001,-0.18033580116340558,-0.08860759493670889,True
-Ensamble + umbral para bajo,Combinación persistencia-climatología,F1 macro,-0.020727353492611233,-0.06083026481642741,0.018345929605972477,False
-Ensamble + umbral para bajo,Combinación persistencia-climatología,kappa,-0.04516244035926276,-0.10178706006613206,0.01182610503779502,False
-Árbol individual,Persistencia,precisión de bajo,0.12,0.08495502155603793,0.1562060160789922,True
-Árbol individual,Persistencia,recall de bajo,-0.08125000000000004,-0.11801350069013113,-0.04635761589403975,True
-Árbol individual,Persistencia,F1 macro,-0.005523824451810211,-0.07546573846931165,0.042465090465090505,False
-Árbol individual,Persistencia,kappa,0.042626198867804055,-0.009622765104628533,0.1021149072096593,False
-Árbol individual,Combinación persistencia-climatología,precisión de bajo,0.008888888888888946,-0.0066736069507228905,0.02693187282975317,False
-Árbol individual,Combinación persistencia-climatología,recall de bajo,-0.050000000000000044,-0.09459459459459463,-0.012193274205469347,True
-Árbol individual,Combinación persistencia-climatología,F1 macro,-0.02535101800781725,-0.10378394247834719,0.027044379464127202,False
-Árbol individual,Combinación persistencia-climatología,kappa,-0.024051692763615073,-0.06703947680388034,0.01867492007850513,False
+Modelo final,Persistencia,precisión de bajo,0.10225563909774427,0.07812979437841279,0.12991454622561488,True
+Modelo final,Persistencia,recall de bajo,-0.050000000000000044,-0.06876080974842776,-0.03105590062111796,True
+Modelo final,Persistencia,F1 macro,0.01898351658845454,-0.023096223949621034,0.05531150379509364,False
+Modelo final,Persistencia,kappa,0.06168036559054202,0.012752669848210108,0.09967138679332439,True
+Modelo final,Combinación persistencia-climatología,precisión de bajo,-0.008855472013366783,-0.04338597384955001,0.027320448580291146,False
+Modelo final,Combinación persistencia-climatología,recall de bajo,-0.018750000000000044,-0.04829274174101759,0.0,False
+Modelo final,Combinación persistencia-climatología,F1 macro,-0.000843676967552498,-0.03744683424309193,0.03546393450328278,False
+Modelo final,Combinación persistencia-climatología,kappa,-0.004997526040877109,-0.05000136252735104,0.04295039457037919,False
+Ensamble (sin umbral),Persistencia,precisión de bajo,0.06486486486486487,0.03487432709440248,0.09940895085756597,True
+Ensamble (sin umbral),Persistencia,recall de bajo,0.0,-0.02564935064935067,0.023391812865497075,False
+Ensamble (sin umbral),Persistencia,F1 macro,0.018476535285045892,-0.027335690176849007,0.06282187779385418,False
+Ensamble (sin umbral),Persistencia,kappa,0.0673747964500121,0.009037298401432463,0.10666275094856846,True
+Ensamble (sin umbral),Combinación persistencia-climatología,precisión de bajo,-0.04624624624624618,-0.07730287014265928,-0.006601114312719036,True
+Ensamble (sin umbral),Combinación persistencia-climatología,recall de bajo,0.03125,-0.00015624999999999057,0.05747126436781613,False
+Ensamble (sin umbral),Combinación persistencia-climatología,F1 macro,-0.001350658270961147,-0.0417240241216158,0.042470395325243326,False
+Ensamble (sin umbral),Combinación persistencia-climatología,kappa,0.0006969048185929694,-0.046681047575300005,0.04688904812043564,False
+Ensamble + umbral para bajo,Persistencia,precisión de bajo,0.17142857142857137,0.12275253350768223,0.22962962962962963,True
+Ensamble + umbral para bajo,Persistencia,recall de bajo,-0.1625000000000001,-0.21839978448275857,-0.11375833239182011,True
+Ensamble + umbral para bajo,Persistencia,F1 macro,-0.0009001599366041946,-0.04721475302949038,0.03535277856646357,False
+Ensamble + umbral para bajo,Persistencia,kappa,0.021515451272156372,-0.05532157931250109,0.094207307358411,False
+Ensamble + umbral para bajo,Combinación persistencia-climatología,precisión de bajo,0.060317460317460325,0.03169098301841666,0.09490733814001286,True
+Ensamble + umbral para bajo,Combinación persistencia-climatología,recall de bajo,-0.1312500000000001,-0.18300653594771232,-0.0892857142857143,True
+Ensamble + umbral para bajo,Combinación persistencia-climatología,F1 macro,-0.020727353492611233,-0.06155327824823398,0.019733712761964554,False
+Ensamble + umbral para bajo,Combinación persistencia-climatología,kappa,-0.04516244035926276,-0.1036532315104427,0.011725058818892298,False
